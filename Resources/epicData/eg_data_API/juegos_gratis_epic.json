@@ -1,0 +1,2057 @@
+[
+    {
+        "_id": "7855942391",
+        "id": "ea365d314ecf4224a5f58d2d7430e7aa",
+        "namespace": "e4ef0c8c500a41eaa57c53d32410595d",
+        "title": "Citizen Sleeper",
+        "description": "Roleplaying in the ruins of interplanetary capitalism. Live the life of an escaped worker, washed-up on a lawless station at the edge of an interstellar society. Inspired by the flexibility and freedom of TTRPGs, choose your friends, escape your past and change your future.",
+        "offerType": "BASE_GAME",
+        "effectiveDate": "2022-05-05T15:00:00.000Z",
+        "creationDate": "2021-09-21T21:43:57.188Z",
+        "lastModifiedDate": "2026-06-20T17:50:49.219Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/spt-assets/919d5976f3804d4cabb8ca90ea43a956/citizen-sleeper-xudwg.jpg",
+                "md5": "1c7afab36ebd6fc366b6c33291aa9780"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/spt-assets/919d5976f3804d4cabb8ca90ea43a956/citizen-sleeper-a7mun.jpg",
+                "md5": "ff9d23d3ebdc81cf802a98791fedd590"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/spt-assets/919d5976f3804d4cabb8ca90ea43a956/citizen-sleeper-a7mun.jpg",
+                "md5": "ff9d23d3ebdc81cf802a98791fedd590"
+            }
+        ],
+        "seller": {
+            "id": "o-22uq4lnmzc6kmlbbaf5gp8yvysnn3t",
+            "name": "Surprise Attack Pty Ltd DBA Fellow Traveller Games"
+        },
+        "productSlug": null,
+        "urlSlug": "da528841e0eb43d8b93fd243c6767b0c",
+        "url": null,
+        "tags": [
+            {
+                "id": "1395",
+                "name": "Narration"
+            },
+            {
+                "id": "21123",
+                "name": "Impact the Story"
+            },
+            {
+                "id": "1370",
+                "name": "Single Player"
+            },
+            {
+                "id": "9547",
+                "name": "Windows"
+            },
+            {
+                "id": "1117",
+                "name": "Adventure"
+            },
+            {
+                "id": "1263",
+                "name": "Indie"
+            }
+        ],
+        "items": [
+            {
+                "_id": "9997703819",
+                "id": "d91f1dd2dfbd4576b0966ab0f4eed09f",
+                "namespace": "e4ef0c8c500a41eaa57c53d32410595d",
+                "title": "Citizen Sleeper",
+                "description": "Roleplaying in the ruins of interplanetary capitalism. Live the life of an escaped worker, washed-up on a lawless station at the edge of an interstellar society. Inspired by the flexibility and freedom of TTRPGs, choose your friends, escape your past and change your future.",
+                "keyImages": [
+                    {
+                        "type": "DieselGameBox",
+                        "url": "https://cdn1.epicgames.com/spt-assets/919d5976f3804d4cabb8ca90ea43a956/citizen-sleeper-offer-193mr.jpg",
+                        "md5": "1c7afab36ebd6fc366b6c33291aa9780"
+                    },
+                    {
+                        "type": "DieselGameBoxTall",
+                        "url": "https://cdn1.epicgames.com/spt-assets/919d5976f3804d4cabb8ca90ea43a956/download-citizen-sleeper-offer-15my0.jpg",
+                        "md5": "ff9d23d3ebdc81cf802a98791fedd590"
+                    }
+                ],
+                "categories": [
+                    {
+                        "path": "games",
+                        "_id": "6a3b09a6373c14ab8cddacdd"
+                    },
+                    {
+                        "path": "applications",
+                        "_id": "6a3b09a6373c14ab8cddacde"
+                    }
+                ],
+                "status": "ACTIVE",
+                "creationDate": "2021-09-21T21:43:57.009Z",
+                "lastModifiedDate": "2025-03-19T06:45:59.854Z",
+                "customAttributes": [
+                    {
+                        "key": "FolderName",
+                        "type": "STRING",
+                        "value": "CitizenSleeperXbYLR"
+                    }
+                ],
+                "entitlementName": "d91f1dd2dfbd4576b0966ab0f4eed09f",
+                "entitlementType": "EXECUTABLE",
+                "itemType": "DURABLE",
+                "releaseInfo": [
+                    {
+                        "id": "53ac33e5d7f844f7bc7b7078211cc8dd",
+                        "appId": "308461dd5d8248058a65a2667f92e330",
+                        "platform": [
+                            "Win32",
+                            "Windows"
+                        ],
+                        "_id": "6a3b09a6373c14ab8cddacdf"
+                    }
+                ],
+                "developer": "Surprise Attack Pty Ltd DBA Fellow Traveller Games",
+                "developerId": "o-22uq4lnmzc6kmlbbaf5gp8yvysnn3t",
+                "eulaIds": [],
+                "installModes": [],
+                "endOfSupport": false,
+                "unsearchable": false,
+                "requiresSecureAccount": false,
+                "__v": 1709,
+                "linkedOffers": [
+                    "ea365d314ecf4224a5f58d2d7430e7aa"
+                ]
+            },
+            {
+                "_id": "1111086734",
+                "id": "0faac6bd1c534811ad0f91b58525cebe",
+                "namespace": "e4ef0c8c500a41eaa57c53d32410595d",
+                "title": "DevGeneralAudience",
+                "description": "DevGeneralAudience",
+                "categories": [
+                    {
+                        "path": "audience",
+                        "_id": "6a3b4ad5373c14ab8ce50d50"
+                    },
+                    {
+                        "path": "public",
+                        "_id": "6a3b4ad5373c14ab8ce50d51"
+                    }
+                ],
+                "status": "ACTIVE",
+                "creationDate": "2021-09-21T21:43:56.840Z",
+                "lastModifiedDate": "2025-03-19T06:45:59.854Z",
+                "customAttributes": [],
+                "entitlementName": "0faac6bd1c534811ad0f91b58525cebe",
+                "entitlementType": "AUDIENCE",
+                "itemType": "DURABLE",
+                "releaseInfo": [],
+                "developer": "Surprise Attack Pty Ltd DBA Fellow Traveller Games",
+                "developerId": "o-22uq4lnmzc6kmlbbaf5gp8yvysnn3t",
+                "eulaIds": [],
+                "installModes": [],
+                "endOfSupport": false,
+                "unsearchable": false,
+                "requiresSecureAccount": false,
+                "linkedOffers": [
+                    "ea365d314ecf4224a5f58d2d7430e7aa"
+                ],
+                "keyImages": [],
+                "__v": 1472
+            }
+        ],
+        "customAttributes": {
+            "autoGeneratedPrice": {
+                "type": "STRING",
+                "value": "false"
+            },
+            "isPromotionalContentUsed": {
+                "type": "STRING",
+                "value": "false"
+            },
+            "isBlockchainUsed": {
+                "type": "STRING",
+                "value": "false"
+            }
+        },
+        "categories": [
+            "freegames",
+            "games",
+            "games/edition",
+            "games/edition/base"
+        ],
+        "developerDisplayName": "Jump Over The Age",
+        "publisherDisplayName": "Fellow Traveller",
+        "prePurchase": null,
+        "releaseDate": "2022-05-05T15:00:00.000Z",
+        "pcReleaseDate": "2022-05-05T15:00:00.000Z",
+        "viewableDate": "2022-04-04T17:00:00.000Z",
+        "countriesBlacklist": [
+            "KR"
+        ],
+        "countriesWhitelist": null,
+        "refundType": "SELF_REFUNDABLE",
+        "giveaway": {
+            "_id": "6a2935dc570e3987f2d21eac",
+            "id": "ea365d314ecf4224a5f58d2d7430e7aa",
+            "namespace": "e4ef0c8c500a41eaa57c53d32410595d",
+            "startDate": "2026-06-18T15:00:00.000Z",
+            "endDate": "2026-06-25T15:00:00.000Z",
+            "title": "Citizen Sleeper",
+            "__v": 0,
+            "offerId": "ea365d314ecf4224a5f58d2d7430e7aa",
+            "platform": null,
+            "historical": [
+                {
+                    "_id": "6a2935dc570e3987f2d21eac",
+                    "id": "ea365d314ecf4224a5f58d2d7430e7aa",
+                    "namespace": "e4ef0c8c500a41eaa57c53d32410595d",
+                    "startDate": "2026-06-18T15:00:00.000Z",
+                    "endDate": "2026-06-25T15:00:00.000Z",
+                    "title": "Citizen Sleeper",
+                    "__v": 0
+                }
+            ]
+        },
+        "price": {
+            "_id": "668565a01ccf0e2d144bc421",
+            "country": "US",
+            "namespace": "e4ef0c8c500a41eaa57c53d32410595d",
+            "offerId": "ea365d314ecf4224a5f58d2d7430e7aa",
+            "__v": 0,
+            "appliedRules": [
+                {
+                    "id": "f3fb5889a40e4de58f916228e7423758",
+                    "name": "Free Games Promotion",
+                    "namespace": "e4ef0c8c500a41eaa57c53d32410595d",
+                    "promotionStatus": "ACTIVE",
+                    "startDate": "2026-06-18T15:00:00.000Z",
+                    "endDate": "2026-06-25T15:00:00.000Z",
+                    "saleType": "REGULAR",
+                    "regionIds": [
+                        "AE",
+                        "AFRICA",
+                        "ANZ",
+                        "AR",
+                        "AU",
+                        "BG",
+                        "BR2",
+                        "CA",
+                        "CH",
+                        "CIS",
+                        "CL2",
+                        "CN2",
+                        "CO2",
+                        "CR2",
+                        "CZ",
+                        "DK",
+                        "EAST",
+                        "EURO",
+                        "GB",
+                        "HK2",
+                        "HU",
+                        "ID2",
+                        "IL",
+                        "IN2",
+                        "JP",
+                        "KR2",
+                        "KZ",
+                        "LATAM",
+                        "MIDEAST",
+                        "MX2",
+                        "MY2",
+                        "NO",
+                        "NZ",
+                        "PE2",
+                        "PH2",
+                        "PL",
+                        "QA",
+                        "RO",
+                        "ROW",
+                        "RU",
+                        "SA",
+                        "SE",
+                        "SEA",
+                        "SG2",
+                        "TH2",
+                        "TR",
+                        "TW2",
+                        "UA",
+                        "US",
+                        "UY2",
+                        "VN2",
+                        "ZA2"
+                    ],
+                    "discountSetting": {
+                        "discountType": "PERCENTAGE",
+                        "discountValue": null,
+                        "discountPercentage": 0,
+                        "_id": "6a340c15f11fd39aae0da71b"
+                    },
+                    "promotionSetting": {
+                        "promotionType": "SIMPLE",
+                        "discountOffers": [
+                            {
+                                "offerId": "ea365d314ecf4224a5f58d2d7430e7aa",
+                                "_id": "6a340c15f11fd39aae0da71d"
+                            }
+                        ],
+                        "_id": "6a340c15f11fd39aae0da71c"
+                    },
+                    "_id": "6a340c15f11fd39aae0da71a"
+                }
+            ],
+            "price": {
+                "currencyCode": "USD",
+                "discount": 1999,
+                "discountPrice": 0,
+                "originalPrice": 1999,
+                "basePayoutCurrencyCode": "USD",
+                "basePayoutPrice": 0,
+                "payoutCurrencyExchangeRate": 1,
+                "_id": "6a340c15f11fd39aae0da719"
+            },
+            "region": "US",
+            "updatedAt": "2026-06-18T15:17:41.943Z"
+        }
+    },
+    {
+        "_id": "2002694370",
+        "id": "aee7ec395d054078a48d867849e2a550",
+        "namespace": "9704b88f02244a60b9b0ab81e0e31389",
+        "title": "ROBOBEAT",
+        "description": "Keep your trigger finger on the pulse! In rhythm shooter ROBOBEAT, you'll play as Ace - a bounty hunter on a mission to capture robot-gone-rogue Frazzer. Wall run, slide, and shoot to your own beat using the in-game custom music editor, blasting through Frazzer's armies!",
+        "offerType": "BASE_GAME",
+        "effectiveDate": "2024-05-14T16:00:00.000Z",
+        "creationDate": "2022-05-17T08:03:33.388Z",
+        "lastModifiedDate": "2026-06-21T13:56:03.750Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/spt-assets/91105717b53044ed8e384e5fada71db8/robobeat-1ojda.png",
+                "md5": "e53f0f541205c77c54c4851fe0a8ecf7"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/spt-assets/91105717b53044ed8e384e5fada71db8/robobeat-15z8d.png",
+                "md5": "3c2230fa072ef3cdd0fb9ba3858697a8"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/spt-assets/91105717b53044ed8e384e5fada71db8/robobeat-15z8d.png",
+                "md5": "3c2230fa072ef3cdd0fb9ba3858697a8"
+            }
+        ],
+        "seller": {
+            "id": "o-suxccu7jpseb6b4tfez6bmh3w3fv43",
+            "name": "Kwalee"
+        },
+        "productSlug": null,
+        "urlSlug": "4ee365fd76704f37ae3dc13676f1ac61",
+        "url": null,
+        "tags": [
+            {
+                "id": "1216",
+                "name": "Action"
+            },
+            {
+                "id": "21109",
+                "name": "Great Boss Battles"
+            },
+            {
+                "id": "19847",
+                "name": "Achievements"
+            },
+            {
+                "id": "1210",
+                "name": "Shooter"
+            },
+            {
+                "id": "1370",
+                "name": "Single Player"
+            },
+            {
+                "id": "9547",
+                "name": "Windows"
+            },
+            {
+                "id": "9549",
+                "name": "Controller Support"
+            },
+            {
+                "id": "1294",
+                "name": "First Person"
+            }
+        ],
+        "items": [
+            {
+                "_id": "3714969635",
+                "id": "1239ac53c639480fa69c775302b2eaf6",
+                "namespace": "9704b88f02244a60b9b0ab81e0e31389",
+                "title": "ROBOBEAT",
+                "description": "Keep your trigger finger on the pulse! In rhythm shooter ROBOBEAT, you'll play as Ace - a bounty hunter on a mission to capture robot-gone-rogue Frazzer in his ever-shifting lair. Wall run, slide, and shoot to the beat, blast through robot armies, and track down your target.",
+                "keyImages": [
+                    {
+                        "type": "DieselGameBox",
+                        "url": "https://cdn1.epicgames.com/spt-assets/91105717b53044ed8e384e5fada71db8/robobeat-1vpo4.png",
+                        "md5": "e53f0f541205c77c54c4851fe0a8ecf7"
+                    },
+                    {
+                        "type": "DieselGameBoxTall",
+                        "url": "https://cdn1.epicgames.com/spt-assets/91105717b53044ed8e384e5fada71db8/robobeat-1q1ck.png",
+                        "md5": "3c2230fa072ef3cdd0fb9ba3858697a8"
+                    }
+                ],
+                "categories": [
+                    {
+                        "path": "games",
+                        "_id": "6a3b486ace6571ebf3845e5d"
+                    },
+                    {
+                        "path": "applications",
+                        "_id": "6a3b486ace6571ebf3845e5e"
+                    }
+                ],
+                "status": "ACTIVE",
+                "creationDate": "2022-05-17T08:03:33.206Z",
+                "lastModifiedDate": "2025-03-25T11:15:15.548Z",
+                "customAttributes": [
+                    {
+                        "key": "FolderName",
+                        "type": "STRING",
+                        "value": "RobobeateUL6R"
+                    }
+                ],
+                "entitlementName": "1239ac53c639480fa69c775302b2eaf6",
+                "entitlementType": "EXECUTABLE",
+                "itemType": "DURABLE",
+                "releaseInfo": [
+                    {
+                        "id": "d9024f8ecd1446248338312fe6055279",
+                        "appId": "eeaf9fd0962d4ab29d72a42df19aaa4a",
+                        "platform": [
+                            "Windows"
+                        ],
+                        "_id": "6a3b486ace6571ebf3845e5f"
+                    }
+                ],
+                "developer": "Kwalee",
+                "developerId": "o-suxccu7jpseb6b4tfez6bmh3w3fv43",
+                "eulaIds": [],
+                "installModes": [],
+                "endOfSupport": false,
+                "applicationId": "fghi4567IVvZhl6Pvdy6fWeOo412H7EI",
+                "unsearchable": false,
+                "requiresSecureAccount": false,
+                "__v": 1822,
+                "linkedOffers": [
+                    "aee7ec395d054078a48d867849e2a550"
+                ]
+            },
+            {
+                "_id": "3506549962",
+                "id": "d7a6df8effb04087a9ac82d2dfc52e6a",
+                "namespace": "9704b88f02244a60b9b0ab81e0e31389",
+                "title": "DevGeneralAudience",
+                "description": "DevGeneralAudience",
+                "categories": [
+                    {
+                        "path": "audience",
+                        "_id": "6a3b499a373c14ab8ce4d8a7"
+                    },
+                    {
+                        "path": "public",
+                        "_id": "6a3b499a373c14ab8ce4d8a8"
+                    }
+                ],
+                "status": "ACTIVE",
+                "creationDate": "2022-05-17T08:03:33.078Z",
+                "lastModifiedDate": "2025-03-25T11:15:15.548Z",
+                "customAttributes": [],
+                "entitlementName": "d7a6df8effb04087a9ac82d2dfc52e6a",
+                "entitlementType": "AUDIENCE",
+                "itemType": "DURABLE",
+                "releaseInfo": [],
+                "developer": "Kwalee",
+                "developerId": "o-suxccu7jpseb6b4tfez6bmh3w3fv43",
+                "eulaIds": [],
+                "installModes": [],
+                "endOfSupport": false,
+                "unsearchable": false,
+                "requiresSecureAccount": false,
+                "linkedOffers": [
+                    "aee7ec395d054078a48d867849e2a550"
+                ],
+                "keyImages": [],
+                "__v": 1473
+            }
+        ],
+        "customAttributes": {
+            "autoGeneratedPrice": {
+                "type": "STRING",
+                "value": "false"
+            },
+            "isManuallySetViewableDate": {
+                "type": "STRING",
+                "value": "true"
+            },
+            "isPromotionalContentUsed": {
+                "type": "STRING",
+                "value": "false"
+            },
+            "isManuallySetPCReleaseDate": {
+                "type": "STRING",
+                "value": "false"
+            },
+            "isBlockchainUsed": {
+                "type": "STRING",
+                "value": "false"
+            }
+        },
+        "categories": [
+            "freegames",
+            "games",
+            "games/edition",
+            "games/edition/base"
+        ],
+        "developerDisplayName": "Simon Fredholm",
+        "publisherDisplayName": "Kwalee",
+        "prePurchase": null,
+        "releaseDate": "2024-05-14T16:00:00.000Z",
+        "pcReleaseDate": "2024-05-14T16:00:00.000Z",
+        "viewableDate": "2023-06-08T12:00:00.000Z",
+        "countriesBlacklist": [],
+        "countriesWhitelist": null,
+        "refundType": "SELF_REFUNDABLE",
+        "giveaway": {
+            "_id": "6a293258570e3987f2d21e00",
+            "id": "aee7ec395d054078a48d867849e2a550",
+            "namespace": "9704b88f02244a60b9b0ab81e0e31389",
+            "startDate": "2026-06-18T15:00:00.000Z",
+            "endDate": "2026-06-25T15:00:00.000Z",
+            "title": "ROBOBEAT",
+            "__v": 0,
+            "offerId": "aee7ec395d054078a48d867849e2a550",
+            "platform": null,
+            "historical": [
+                {
+                    "_id": "6a293258570e3987f2d21e00",
+                    "id": "aee7ec395d054078a48d867849e2a550",
+                    "namespace": "9704b88f02244a60b9b0ab81e0e31389",
+                    "startDate": "2026-06-18T15:00:00.000Z",
+                    "endDate": "2026-06-25T15:00:00.000Z",
+                    "title": "ROBOBEAT",
+                    "__v": 0
+                }
+            ]
+        },
+        "price": {
+            "_id": "6685639b1ccf0e2d144437de",
+            "country": "US",
+            "namespace": "9704b88f02244a60b9b0ab81e0e31389",
+            "offerId": "aee7ec395d054078a48d867849e2a550",
+            "__v": 0,
+            "appliedRules": [
+                {
+                    "id": "323b61e1639f4f21a5a86051c4424df2",
+                    "name": "Free Games Promotion",
+                    "namespace": "9704b88f02244a60b9b0ab81e0e31389",
+                    "promotionStatus": "ACTIVE",
+                    "startDate": "2026-06-18T15:00:00.000Z",
+                    "endDate": "2026-06-25T15:00:00.000Z",
+                    "saleType": "REGULAR",
+                    "regionIds": [
+                        "AE",
+                        "AFRICA",
+                        "ANZ",
+                        "AR",
+                        "AU",
+                        "BG",
+                        "BR2",
+                        "CA",
+                        "CH",
+                        "CIS",
+                        "CL2",
+                        "CN2",
+                        "CO2",
+                        "CR2",
+                        "CZ",
+                        "DK",
+                        "EAST",
+                        "EURO",
+                        "GB",
+                        "HK2",
+                        "HU",
+                        "ID2",
+                        "IL",
+                        "IN2",
+                        "JP",
+                        "KR2",
+                        "KZ",
+                        "LATAM",
+                        "MIDEAST",
+                        "MX2",
+                        "MY2",
+                        "NO",
+                        "NZ",
+                        "PE2",
+                        "PH2",
+                        "PL",
+                        "QA",
+                        "RO",
+                        "ROW",
+                        "RU",
+                        "SA",
+                        "SE",
+                        "SEA",
+                        "SG2",
+                        "TH2",
+                        "TR",
+                        "TW2",
+                        "UA",
+                        "US",
+                        "UY2",
+                        "VN2",
+                        "ZA2"
+                    ],
+                    "discountSetting": {
+                        "discountType": "PERCENTAGE",
+                        "discountValue": null,
+                        "discountPercentage": 0,
+                        "_id": "6a340c16f11fd39aae0daa04"
+                    },
+                    "promotionSetting": {
+                        "promotionType": "SIMPLE",
+                        "discountOffers": [
+                            {
+                                "offerId": "aee7ec395d054078a48d867849e2a550",
+                                "_id": "6a340c16f11fd39aae0daa06"
+                            }
+                        ],
+                        "_id": "6a340c16f11fd39aae0daa05"
+                    },
+                    "_id": "6a340c16f11fd39aae0daa03"
+                }
+            ],
+            "price": {
+                "currencyCode": "USD",
+                "discount": 1999,
+                "discountPrice": 0,
+                "originalPrice": 1999,
+                "basePayoutCurrencyCode": "USD",
+                "basePayoutPrice": 0,
+                "payoutCurrencyExchangeRate": 1,
+                "_id": "6a340c16f11fd39aae0daa02"
+            },
+            "region": "US",
+            "updatedAt": "2026-06-18T15:17:42.218Z"
+        }
+    },
+    {
+        "_id": "3757109348",
+        "id": "4ec50a302f1449b3bf706a199c333ab8",
+        "namespace": "f01b3e0178d448f0b93911e292d8e614",
+        "title": "RollerCoaster Tycoon 3 Complete Edition",
+        "description": "Build the park of a lifetime and rediscover the critically acclaimed rollercoaster simulation bestseller. Feel the thrill of a genre-defining classic, complete with two huge expansion packs.",
+        "offerType": "BASE_GAME",
+        "effectiveDate": "2020-09-24T15:00:00.000Z",
+        "creationDate": "2026-06-10T19:15:43.363Z",
+        "lastModifiedDate": "2026-06-18T15:00:39.139Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "featuredMedia",
+                "url": "https://cdn1.epicgames.com/f01b3e0178d448f0b93911e292d8e614/offer/EGS_RollerCoasterTycoon3CompleteEdition_FrontierDevelopments_S5-1920x1080-689d96ca4d5a4e8de183b7a928960c87.jpg",
+                "md5": "689d96ca4d5a4e8de183b7a928960c87"
+            },
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/f01b3e0178d448f0b93911e292d8e614/offer/EGS_RollerCoasterTycoon3CompleteEdition_FrontierDevelopments_S5-1920x1080-689d96ca4d5a4e8de183b7a928960c87.jpg",
+                "md5": "689d96ca4d5a4e8de183b7a928960c87"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/f01b3e0178d448f0b93911e292d8e614/offer/EGS_RollerCoasterTycoon3CompleteEdition_FrontierDevelopments_S6-1200x1600-591ca93f3bee7bc55a90b77ccc36eb84.jpg",
+                "md5": "591ca93f3bee7bc55a90b77ccc36eb84"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/f01b3e0178d448f0b93911e292d8e614/offer/EGS_RollerCoasterTycoon3CompleteEdition_FrontierDevelopments_S6-1200x1600-591ca93f3bee7bc55a90b77ccc36eb84.jpg",
+                "md5": "591ca93f3bee7bc55a90b77ccc36eb84"
+            }
+        ],
+        "seller": {
+            "id": "o-bhpk86rgthezed539g3hb5avacecqt",
+            "name": "Atari"
+        },
+        "productSlug": "rollercoaster-tycoon-3-complete-edition/home",
+        "urlSlug": "mainegeneralaudience",
+        "url": null,
+        "tags": [
+            {
+                "id": "1188",
+                "name": "RELAXING"
+            },
+            {
+                "id": "21127",
+                "name": "Creative Community"
+            },
+            {
+                "id": "21130",
+                "name": "Easy Combat"
+            },
+            {
+                "id": "9547",
+                "name": "Windows"
+            },
+            {
+                "id": "35244",
+                "name": "Epic Savings"
+            },
+            {
+                "id": "21136",
+                "name": "Playful Visuals"
+            },
+            {
+                "id": "1393",
+                "name": "Simulation"
+            },
+            {
+                "id": "21138",
+                "name": "Recommend this Game"
+            },
+            {
+                "id": "21139",
+                "name": "Amazing Characters"
+            },
+            {
+                "id": "21140",
+                "name": "Amazing Storytelling"
+            },
+            {
+                "id": "21141",
+                "name": "Extremely Fun"
+            },
+            {
+                "id": "1370",
+                "name": "Single Player"
+            },
+            {
+                "id": "1115",
+                "name": "Strategy"
+            },
+            {
+                "id": "21149",
+                "name": "Quickly Understand the Controls"
+            },
+            {
+                "id": "21119",
+                "name": "Great for Beginners"
+            }
+        ],
+        "items": [
+            {
+                "_id": "2591907711",
+                "id": "df38ad3ac22e45c98182b6830730aedf",
+                "namespace": "f01b3e0178d448f0b93911e292d8e614",
+                "title": "RollerCoaster Tycoon® 3: Complete Edition",
+                "description": "RollerCoaster Tycoon® 3: Complete Edition",
+                "keyImages": [
+                    {
+                        "type": "DieselGameBox",
+                        "url": "https://cdn1.epicgames.com/f01b3e0178d448f0b93911e292d8e614/item/EGS_RollerCoasterTycoon3CompleteEdition_FrontierDevelopments_S5-1920x1080-689d96ca4d5a4e8de183b7a928960c87.jpg",
+                        "md5": "689d96ca4d5a4e8de183b7a928960c87"
+                    },
+                    {
+                        "type": "DieselGameBoxTall",
+                        "url": "https://cdn1.epicgames.com/f01b3e0178d448f0b93911e292d8e614/item/EGS_RollerCoasterTycoon3CompleteEdition_FrontierDevelopments_S6-1200x1600-591ca93f3bee7bc55a90b77ccc36eb84.jpg",
+                        "md5": "591ca93f3bee7bc55a90b77ccc36eb84"
+                    }
+                ],
+                "categories": [
+                    {
+                        "path": "public",
+                        "_id": "6a3b0a51373c14ab8cddc9d2"
+                    },
+                    {
+                        "path": "games",
+                        "_id": "6a3b0a51373c14ab8cddc9d3"
+                    },
+                    {
+                        "path": "applications",
+                        "_id": "6a3b0a51373c14ab8cddc9d4"
+                    }
+                ],
+                "status": "ACTIVE",
+                "creationDate": "2026-06-10T19:15:43.337Z",
+                "lastModifiedDate": "2026-06-11T21:02:44.221Z",
+                "customAttributes": [
+                    {
+                        "key": "CanRunOffline",
+                        "type": "STRING",
+                        "value": "true"
+                    },
+                    {
+                        "key": "PresenceId",
+                        "type": "STRING",
+                        "value": "f01b3e0178d448f0b93911e292d8e614"
+                    },
+                    {
+                        "key": "MonitorPresence",
+                        "type": "STRING",
+                        "value": "true"
+                    },
+                    {
+                        "key": "UseAccessControl",
+                        "type": "STRING",
+                        "value": "false"
+                    },
+                    {
+                        "key": "RequirementsJson",
+                        "type": "STRING",
+                        "value": "[]"
+                    },
+                    {
+                        "key": "CanSkipKoreanIdVerification",
+                        "type": "STRING",
+                        "value": "true"
+                    },
+                    {
+                        "key": "FolderName",
+                        "type": "STRING",
+                        "value": "RollerCoasterTycoon3"
+                    }
+                ],
+                "entitlementName": "df38ad3ac22e45c98182b6830730aedf",
+                "entitlementType": "EXECUTABLE",
+                "itemType": "DURABLE",
+                "releaseInfo": [
+                    {
+                        "id": "8673bbfe657b4429b8a1214a9f1dd4da",
+                        "appId": "281a47e363284108b82bf05c1a612145",
+                        "platform": [
+                            "Windows"
+                        ],
+                        "_id": "6a3b0a51373c14ab8cddc9d5"
+                    }
+                ],
+                "developer": "Atari",
+                "developerId": "o-bhpk86rgthezed539g3hb5avacecqt",
+                "eulaIds": [
+                    "egstore"
+                ],
+                "installModes": [],
+                "endOfSupport": false,
+                "unsearchable": false,
+                "__v": 2827,
+                "linkedOffers": []
+            },
+            {
+                "_id": "2847711181",
+                "id": "d666b5e22c58413ebcf10a028d2364ee",
+                "namespace": "f01b3e0178d448f0b93911e292d8e614",
+                "title": "MaineGeneralAudience",
+                "description": "MaineGeneralAudience",
+                "keyImages": [
+                    {
+                        "type": "ESRB",
+                        "url": "https://cdn1.epicgames.com/f01b3e0178d448f0b93911e292d8e614/item/Diesel_product_ratings_ESRB_InnerSpace-842x404-40888e13b9690c3d6b3958bb2a2434493a9338da-842x404-2b0f62d48cb4a74ba147226031a47d04.jpg",
+                        "md5": "2b0f62d48cb4a74ba147226031a47d04"
+                    }
+                ],
+                "categories": [
+                    {
+                        "path": "audience",
+                        "_id": "6a3b2550373c14ab8ce12914"
+                    },
+                    {
+                        "path": "public",
+                        "_id": "6a3b2550373c14ab8ce12915"
+                    }
+                ],
+                "status": "ACTIVE",
+                "creationDate": "2026-06-10T19:15:43.334Z",
+                "lastModifiedDate": "2026-06-11T21:02:44.221Z",
+                "customAttributes": [
+                    {
+                        "key": "SupportedPlatforms",
+                        "type": "STRING",
+                        "value": "Windows"
+                    }
+                ],
+                "entitlementName": "d666b5e22c58413ebcf10a028d2364ee",
+                "entitlementType": "AUDIENCE",
+                "itemType": "DURABLE",
+                "developer": "Atari",
+                "developerId": "o-bhpk86rgthezed539g3hb5avacecqt",
+                "eulaIds": [
+                    "egstore"
+                ],
+                "installModes": [],
+                "endOfSupport": false,
+                "unsearchable": true,
+                "linkedOffers": [
+                    "4ec50a302f1449b3bf706a199c333ab8"
+                ],
+                "releaseInfo": [],
+                "__v": 1052
+            }
+        ],
+        "customAttributes": {
+            "autoGeneratedPrice": {
+                "type": "STRING",
+                "value": "false"
+            },
+            "isManuallySetViewableDate": {
+                "type": "STRING",
+                "value": "true"
+            },
+            "com.epicgames.app.blacklist": {
+                "type": "STRING",
+                "value": "[]"
+            },
+            "isPromotionalContentUsed": {
+                "type": "STRING",
+                "value": "false"
+            },
+            "publisherName": {
+                "type": "STRING",
+                "value": "Frontier Foundry"
+            },
+            "developerName": {
+                "type": "STRING",
+                "value": "Frontier Developments"
+            },
+            "com.epicgames.app.productSlug": {
+                "type": "STRING",
+                "value": "rollercoaster-tycoon-3-complete-edition/home"
+            },
+            "isBlockchainUsed": {
+                "type": "STRING",
+                "value": "false"
+            }
+        },
+        "categories": [
+            "freegames",
+            "games",
+            "games/edition",
+            "games/edition/base",
+            "applications"
+        ],
+        "developerDisplayName": "Frontier Developments",
+        "publisherDisplayName": "Atari",
+        "prePurchase": null,
+        "releaseDate": "2020-09-24T15:00:00.000Z",
+        "pcReleaseDate": "2020-09-24T15:00:00.000Z",
+        "viewableDate": "2020-09-17T14:20:00.000Z",
+        "countriesBlacklist": [
+            "RU",
+            "KP",
+            "BY",
+            "CN",
+            "UA"
+        ],
+        "countriesWhitelist": null,
+        "refundType": "SELF_REFUNDABLE",
+        "giveaway": {
+            "_id": "6a33fb48570e3987f2d3d474",
+            "id": "4ec50a302f1449b3bf706a199c333ab8",
+            "namespace": "f01b3e0178d448f0b93911e292d8e614",
+            "startDate": "2026-06-25T15:00:00.000Z",
+            "endDate": "2026-07-02T15:00:00.000Z",
+            "title": "RollerCoaster Tycoon 3 Complete Edition",
+            "__v": 0,
+            "offerId": "4ec50a302f1449b3bf706a199c333ab8",
+            "platform": null,
+            "historical": [
+                {
+                    "_id": "6a33fb48570e3987f2d3d474",
+                    "id": "4ec50a302f1449b3bf706a199c333ab8",
+                    "namespace": "f01b3e0178d448f0b93911e292d8e614",
+                    "startDate": "2026-06-25T15:00:00.000Z",
+                    "endDate": "2026-07-02T15:00:00.000Z",
+                    "title": "RollerCoaster Tycoon 3 Complete Edition",
+                    "__v": 0
+                }
+            ]
+        },
+        "price": {
+            "_id": "668564b21ccf0e2d1447fab8",
+            "namespace": "f01b3e0178d448f0b93911e292d8e614",
+            "country": "US",
+            "offerId": "4ec50a302f1449b3bf706a199c333ab8",
+            "__v": 0,
+            "appliedRules": [
+                {
+                    "id": "fd772cf0a8d84b8294ef42df2ddb1aea",
+                    "name": "[Flex-Sale] Epic Savings: Jun-Jul 2026",
+                    "namespace": "f01b3e0178d448f0b93911e292d8e614",
+                    "promotionStatus": "ACTIVE",
+                    "startDate": "2026-06-18T15:00:00.000Z",
+                    "endDate": "2026-07-02T15:00:00.000Z",
+                    "saleType": "REGULAR",
+                    "regionIds": [
+                        "AE",
+                        "AFRICA",
+                        "ANZ",
+                        "AR",
+                        "AU",
+                        "BG",
+                        "BR2",
+                        "CA",
+                        "CH",
+                        "CIS",
+                        "CL2",
+                        "CN2",
+                        "CO2",
+                        "CR2",
+                        "CZ",
+                        "DK",
+                        "EAST",
+                        "EURO",
+                        "GB",
+                        "HK2",
+                        "HU",
+                        "ID2",
+                        "IL",
+                        "IN2",
+                        "JP",
+                        "KR2",
+                        "KZ",
+                        "LATAM",
+                        "MIDEAST",
+                        "MX2",
+                        "MY2",
+                        "NO",
+                        "NZ",
+                        "PE2",
+                        "PH2",
+                        "PL",
+                        "QA",
+                        "RO",
+                        "ROW",
+                        "RU",
+                        "SA",
+                        "SE",
+                        "SEA",
+                        "SG2",
+                        "TH2",
+                        "TR",
+                        "TW2",
+                        "UA",
+                        "US",
+                        "UY2",
+                        "VN2",
+                        "ZA2"
+                    ],
+                    "discountSetting": {
+                        "discountType": "PERCENTAGE",
+                        "discountValue": null,
+                        "discountPercentage": 25,
+                        "_id": "6a340932f11fd39aae05af89"
+                    },
+                    "promotionSetting": {
+                        "promotionType": "SIMPLE",
+                        "discountOffers": [
+                            {
+                                "offerId": "4ec50a302f1449b3bf706a199c333ab8",
+                                "_id": "6a340932f11fd39aae05af8b"
+                            }
+                        ],
+                        "_id": "6a340932f11fd39aae05af8a"
+                    },
+                    "_id": "6a340932f11fd39aae05af88"
+                }
+            ],
+            "price": {
+                "currencyCode": "USD",
+                "discount": 1500,
+                "discountPrice": 499,
+                "originalPrice": 1999,
+                "basePayoutCurrencyCode": "USD",
+                "basePayoutPrice": 500,
+                "payoutCurrencyExchangeRate": 1,
+                "_id": "6a340932f11fd39aae05af87"
+            },
+            "region": "US",
+            "updatedAt": "2026-06-18T15:05:22.790Z"
+        }
+    },
+    {
+        "_id": "8213033811",
+        "id": "bbccf66ad70e492d812e031e17f93b9d",
+        "namespace": "1c6e13038e00432ba0a3c11bb85d1d5f",
+        "title": "Voidwrought",
+        "description": "Voidwrought is a 2D action-platformer set in a hand-drawn world of cosmic horrors. Explore the thawing ruins of the First Civilisation and strike down the gods that dwell there. Grow your powers, uncover ancient Artifacts, and expand your shrine amid the wreckage.",
+        "offerType": "BASE_GAME",
+        "effectiveDate": "2024-10-24T16:00:00.000Z",
+        "creationDate": "2023-12-19T13:09:09.188Z",
+        "lastModifiedDate": "2026-06-17T11:02:20.343Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/spt-assets/ae3f962fab4d42eba2dbefa4a1e76ff6/voidwrought-bio8j.jpg",
+                "md5": "b3a7a9d642b6d175591b58387edf8dc5"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/spt-assets/ae3f962fab4d42eba2dbefa4a1e76ff6/voidwrought-9gwxt.png",
+                "md5": "81bc8bd8393a9e0a95ab9222310f1989"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/spt-assets/ae3f962fab4d42eba2dbefa4a1e76ff6/voidwrought-9gwxt.png",
+                "md5": "81bc8bd8393a9e0a95ab9222310f1989"
+            }
+        ],
+        "seller": {
+            "id": "o-suxccu7jpseb6b4tfez6bmh3w3fv43",
+            "name": "Kwalee"
+        },
+        "productSlug": null,
+        "urlSlug": "8d0e69e541454ac7818117af13960b30",
+        "url": null,
+        "tags": [
+            {
+                "id": "1216",
+                "name": "Action"
+            },
+            {
+                "id": "1381",
+                "name": "Exploration"
+            },
+            {
+                "id": "19847",
+                "name": "Achievements"
+            },
+            {
+                "id": "1370",
+                "name": "Single Player"
+            },
+            {
+                "id": "9547",
+                "name": "Windows"
+            },
+            {
+                "id": "9549",
+                "name": "Controller Support"
+            },
+            {
+                "id": "1151",
+                "name": "Platformer"
+            }
+        ],
+        "items": [
+            {
+                "_id": "6006110164",
+                "id": "62db4b4dc8024f109a3719061bc5f43d",
+                "namespace": "1c6e13038e00432ba0a3c11bb85d1d5f",
+                "title": "Voidwrought",
+                "description": "Voidwrought is a 2D action-platformer set in a hand-drawn world of cosmic horrors. Explore the thawing ruins of the First Civilisation and strike down the gods that dwell there. Grow your powers, uncover ancient Artifacts, and expand your shrine amid the wreckage.",
+                "keyImages": [
+                    {
+                        "type": "DieselGameBox",
+                        "url": "https://cdn1.epicgames.com/spt-assets/ae3f962fab4d42eba2dbefa4a1e76ff6/voidwrought-1ab92.jpg",
+                        "md5": "b3a7a9d642b6d175591b58387edf8dc5"
+                    },
+                    {
+                        "type": "DieselGameBoxTall",
+                        "url": "https://cdn1.epicgames.com/spt-assets/ae3f962fab4d42eba2dbefa4a1e76ff6/voidwrought-4391z.png",
+                        "md5": "81bc8bd8393a9e0a95ab9222310f1989"
+                    }
+                ],
+                "categories": [
+                    {
+                        "path": "games",
+                        "_id": "6a3b0b03373c14ab8cdde487"
+                    },
+                    {
+                        "path": "applications",
+                        "_id": "6a3b0b03373c14ab8cdde488"
+                    }
+                ],
+                "status": "ACTIVE",
+                "creationDate": "2023-12-19T13:09:08.583Z",
+                "lastModifiedDate": "2025-04-01T08:00:15.446Z",
+                "customAttributes": [
+                    {
+                        "key": "FolderName",
+                        "type": "STRING",
+                        "value": "VoidwroughtFq9Qv"
+                    }
+                ],
+                "entitlementName": "62db4b4dc8024f109a3719061bc5f43d",
+                "entitlementType": "EXECUTABLE",
+                "itemType": "DURABLE",
+                "releaseInfo": [
+                    {
+                        "id": "ac64d1d4cbbd4722837a2fa3f967bde4",
+                        "appId": "270094e9e9da4cdcadbeef8d59e9e444",
+                        "platform": [
+                            "Windows"
+                        ],
+                        "_id": "6a3b0b03373c14ab8cdde489"
+                    }
+                ],
+                "developer": "Kwalee",
+                "developerId": "o-suxccu7jpseb6b4tfez6bmh3w3fv43",
+                "eulaIds": [],
+                "installModes": [],
+                "endOfSupport": false,
+                "unsearchable": false,
+                "requiresSecureAccount": false,
+                "__v": 1635,
+                "linkedOffers": []
+            },
+            {
+                "_id": "1419862918",
+                "id": "4202a1496e7d45d1b42fb130ce3f18bf",
+                "namespace": "1c6e13038e00432ba0a3c11bb85d1d5f",
+                "title": "DevGeneralAudience",
+                "description": "DevGeneralAudience",
+                "categories": [
+                    {
+                        "path": "audience",
+                        "_id": "6a3b4961373c14ab8ce4cd3b"
+                    },
+                    {
+                        "path": "public",
+                        "_id": "6a3b4961373c14ab8ce4cd3c"
+                    }
+                ],
+                "status": "ACTIVE",
+                "creationDate": "2023-12-19T13:09:08.503Z",
+                "lastModifiedDate": "2025-04-01T08:00:15.446Z",
+                "customAttributes": [],
+                "entitlementName": "4202a1496e7d45d1b42fb130ce3f18bf",
+                "entitlementType": "AUDIENCE",
+                "itemType": "DURABLE",
+                "releaseInfo": [],
+                "developer": "Kwalee",
+                "developerId": "o-suxccu7jpseb6b4tfez6bmh3w3fv43",
+                "eulaIds": [],
+                "installModes": [],
+                "endOfSupport": false,
+                "unsearchable": false,
+                "requiresSecureAccount": false,
+                "linkedOffers": [
+                    "bbccf66ad70e492d812e031e17f93b9d"
+                ],
+                "keyImages": [],
+                "__v": 1484
+            }
+        ],
+        "customAttributes": {
+            "autoGeneratedPrice": {
+                "type": "STRING",
+                "value": "false"
+            },
+            "isManuallySetViewableDate": {
+                "type": "STRING",
+                "value": "false"
+            },
+            "isPromotionalContentUsed": {
+                "type": "STRING",
+                "value": "false"
+            },
+            "isManuallySetPCReleaseDate": {
+                "type": "STRING",
+                "value": "false"
+            },
+            "isBlockchainUsed": {
+                "type": "STRING",
+                "value": "false"
+            }
+        },
+        "categories": [
+            "freegames",
+            "games",
+            "games/edition",
+            "games/edition/base"
+        ],
+        "developerDisplayName": "Powersnake",
+        "publisherDisplayName": "Kwalee",
+        "prePurchase": null,
+        "releaseDate": "2024-10-24T16:00:00.000Z",
+        "pcReleaseDate": "2024-10-24T16:00:00.000Z",
+        "viewableDate": "2024-03-22T08:46:48.000Z",
+        "countriesBlacklist": [],
+        "countriesWhitelist": null,
+        "refundType": "SELF_REFUNDABLE",
+        "giveaway": {
+            "_id": "6a327fd4570e3987f2d39e66",
+            "id": "bbccf66ad70e492d812e031e17f93b9d",
+            "namespace": "1c6e13038e00432ba0a3c11bb85d1d5f",
+            "startDate": "2026-06-25T15:00:00.000Z",
+            "endDate": "2026-07-02T15:00:00.000Z",
+            "title": "Voidwrought",
+            "__v": 0,
+            "offerId": "bbccf66ad70e492d812e031e17f93b9d",
+            "platform": null,
+            "historical": [
+                {
+                    "_id": "6a327fd4570e3987f2d39e66",
+                    "id": "bbccf66ad70e492d812e031e17f93b9d",
+                    "namespace": "1c6e13038e00432ba0a3c11bb85d1d5f",
+                    "startDate": "2026-06-25T15:00:00.000Z",
+                    "endDate": "2026-07-02T15:00:00.000Z",
+                    "title": "Voidwrought",
+                    "__v": 0
+                }
+            ]
+        },
+        "price": {
+            "_id": "6685635e1ccf0e2d144367d3",
+            "namespace": "1c6e13038e00432ba0a3c11bb85d1d5f",
+            "offerId": "bbccf66ad70e492d812e031e17f93b9d",
+            "country": "US",
+            "__v": 0,
+            "appliedRules": [],
+            "price": {
+                "currencyCode": "USD",
+                "discount": 0,
+                "discountPrice": 1999,
+                "originalPrice": 1999,
+                "basePayoutCurrencyCode": "USD",
+                "basePayoutPrice": 1999,
+                "payoutCurrencyExchangeRate": 1,
+                "_id": "672ce69a8e0ca5b358045346"
+            },
+            "region": "US",
+            "updatedAt": "2024-11-07T16:11:06.399Z"
+        }
+    },
+    {
+        "_id": "3416436611",
+        "id": "4943ede186ff4b67840e3e59ecdaf76c",
+        "namespace": "e2d49ab2557448a2a9724c42999066f1",
+        "title": "Construction Simulator 3",
+        "description": "Build your company in a European town with 50+ licensed vehicles. Complete contracts such as roadwork and house-building, unlock new vehicles, and shape the skyline with over 70 new challenges.",
+        "offerType": "BASE_GAME",
+        "effectiveDate": "2026-06-18T15:00:00.000Z",
+        "creationDate": "2026-04-29T08:01:45.891Z",
+        "lastModifiedDate": "2026-06-18T14:13:10.780Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-l7gx1.jpg",
+                "md5": "a805f32f7860ae79b2610d8eace9c183"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-8v822.jpg",
+                "md5": "90fc2c2aa3cb144f45cfc345a475d663"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-8v822.jpg",
+                "md5": "90fc2c2aa3cb144f45cfc345a475d663"
+            },
+            {
+                "type": "featuredMedia",
+                "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-1wht5.jpg",
+                "md5": "098f6bcd4621d373cade4e832627b4f6"
+            },
+            {
+                "type": "featuredMedia",
+                "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-hmky8.jpg",
+                "md5": "098f6bcd4621d373cade4e832627b4f6"
+            },
+            {
+                "type": "featuredMedia",
+                "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-2tznu.jpg",
+                "md5": "098f6bcd4621d373cade4e832627b4f6"
+            },
+            {
+                "type": "featuredMedia",
+                "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-17kkl.jpg",
+                "md5": "098f6bcd4621d373cade4e832627b4f6"
+            },
+            {
+                "type": "featuredMedia",
+                "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-1daua.jpg",
+                "md5": "098f6bcd4621d373cade4e832627b4f6"
+            },
+            {
+                "type": "featuredMedia",
+                "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-2h27q.jpg",
+                "md5": "098f6bcd4621d373cade4e832627b4f6"
+            },
+            {
+                "type": "featuredMedia",
+                "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-1u99u.jpg",
+                "md5": "098f6bcd4621d373cade4e832627b4f6"
+            },
+            {
+                "type": "featuredMedia",
+                "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-v6pl4.jpg",
+                "md5": "098f6bcd4621d373cade4e832627b4f6"
+            },
+            {
+                "type": "featuredMedia",
+                "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-1tww5.jpg",
+                "md5": "098f6bcd4621d373cade4e832627b4f6"
+            }
+        ],
+        "seller": {
+            "id": "o-e7sqcutqs4wuy9kr6dpy7gyqt9tchh",
+            "name": "Store Rider"
+        },
+        "productSlug": null,
+        "urlSlug": "construction-simulator-3",
+        "url": null,
+        "tags": [
+            {
+                "id": "1393",
+                "name": "Simulation"
+            },
+            {
+                "id": "1381",
+                "name": "Exploration"
+            },
+            {
+                "id": "1146",
+                "name": "City Builder"
+            },
+            {
+                "id": "1370",
+                "name": "Single Player"
+            },
+            {
+                "id": "39071",
+                "name": "Android"
+            }
+        ],
+        "items": [
+            {
+                "_id": "ddd8884d14ca4fec996ae425404b7126",
+                "id": "ddd8884d14ca4fec996ae425404b7126",
+                "namespace": "e2d49ab2557448a2a9724c42999066f1",
+                "title": "Construction Simulator 3",
+                "description": "Build your company in a European town with 50+ licensed vehicles. Complete contracts such as roadwork and house-building, unlock new vehicles, and shape the skyline with over 70 new challenges.",
+                "keyImages": [
+                    {
+                        "type": "DieselGameBox",
+                        "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-su2ty.jpg",
+                        "md5": "a805f32f7860ae79b2610d8eace9c183"
+                    },
+                    {
+                        "type": "DieselGameBoxTall",
+                        "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-upqkg.jpg",
+                        "md5": "90fc2c2aa3cb144f45cfc345a475d663"
+                    }
+                ],
+                "categories": [
+                    {
+                        "path": "games",
+                        "_id": "6a3b0ad2373c14ab8cdddf5f"
+                    },
+                    {
+                        "path": "applications",
+                        "_id": "6a3b0ad2373c14ab8cdddf60"
+                    }
+                ],
+                "status": "ACTIVE",
+                "creationDate": "2026-04-29T08:01:45.794Z",
+                "lastModifiedDate": "2026-04-29T08:01:45.794Z",
+                "customAttributes": [
+                    {
+                        "key": "FolderName",
+                        "type": "STRING",
+                        "value": "ConstructionSimulato75cf1"
+                    }
+                ],
+                "entitlementName": "ddd8884d14ca4fec996ae425404b7126",
+                "entitlementType": "EXECUTABLE",
+                "itemType": "DURABLE",
+                "releaseInfo": [
+                    {
+                        "id": "5ecea662-1b52-441e-8441-2b3db47d87f1",
+                        "appId": "7f96cc0f1f754046891bf0cb1e68b8db",
+                        "platform": [
+                            "Android"
+                        ],
+                        "_id": "6a3b0ad2373c14ab8cdddf61"
+                    }
+                ],
+                "developer": "Store Rider",
+                "developerId": "o-e7sqcutqs4wuy9kr6dpy7gyqt9tchh",
+                "eulaIds": [],
+                "installModes": [],
+                "endOfSupport": false,
+                "applicationId": "fghi4567Kuy8zMfGT226PsHA331lLV8S",
+                "unsearchable": false,
+                "requiresSecureAccount": false,
+                "linkedOffers": [],
+                "__v": 12
+            },
+            {
+                "_id": "10e77b67a8944c95bd2f41afe222a074",
+                "id": "10e77b67a8944c95bd2f41afe222a074",
+                "namespace": "e2d49ab2557448a2a9724c42999066f1",
+                "title": "Construction Simulator 3_Android_BaseGameAudience",
+                "description": "Construction Simulator 3_Android_BaseGameAudience",
+                "categories": [
+                    {
+                        "path": "audience",
+                        "_id": "6a39be48930da10c4c0e4044"
+                    },
+                    {
+                        "path": "public",
+                        "_id": "6a39be48930da10c4c0e4045"
+                    }
+                ],
+                "status": "ACTIVE",
+                "creationDate": "2026-04-29T08:01:45.783Z",
+                "lastModifiedDate": "2026-04-29T08:01:46.497Z",
+                "customAttributes": [],
+                "entitlementName": "10e77b67a8944c95bd2f41afe222a074",
+                "entitlementType": "AUDIENCE",
+                "itemType": "DURABLE",
+                "developer": "Store Rider",
+                "developerId": "o-e7sqcutqs4wuy9kr6dpy7gyqt9tchh",
+                "eulaIds": [],
+                "installModes": [],
+                "endOfSupport": false,
+                "unsearchable": false,
+                "requiresSecureAccount": false,
+                "linkedOffers": [],
+                "keyImages": [],
+                "releaseInfo": [],
+                "__v": 9
+            }
+        ],
+        "customAttributes": {
+            "autoGeneratedPrice": {
+                "type": "STRING",
+                "value": "false"
+            },
+            "isManuallySetViewableDate": {
+                "type": "STRING",
+                "value": "true"
+            },
+            "isPromotionalContentUsed": {
+                "type": "STRING",
+                "value": "false"
+            },
+            "androidCatalogItemId": {
+                "type": "STRING",
+                "value": "ddd8884d14ca4fec996ae425404b7126"
+            },
+            "isManuallySetPCReleaseDate": {
+                "type": "STRING",
+                "value": "true"
+            },
+            "isBlockchainUsed": {
+                "type": "STRING",
+                "value": "false"
+            }
+        },
+        "categories": [
+            "freegames",
+            "games",
+            "games/edition",
+            "games/edition/base"
+        ],
+        "developerDisplayName": "Astragon",
+        "publisherDisplayName": "StoreRider",
+        "prePurchase": null,
+        "releaseDate": "2026-06-18T15:00:00.000Z",
+        "pcReleaseDate": "2019-04-10T00:00:00.000Z",
+        "viewableDate": "2026-06-18T15:00:00.000Z",
+        "countriesBlacklist": [
+            "CN"
+        ],
+        "countriesWhitelist": null,
+        "refundType": "SELF_REFUNDABLE",
+        "giveaway": {
+            "_id": "6a34167cfd62087a529175bc",
+            "platform": "android",
+            "offerId": "4943ede186ff4b67840e3e59ecdaf76c",
+            "startDate": "2026-06-18T15:52:00.000Z",
+            "endDate": "2026-06-25T15:00:00.000Z",
+            "historical": {
+                "_id": "6a34167cfd62087a529175bc",
+                "platform": "android",
+                "offerId": "4943ede186ff4b67840e3e59ecdaf76c",
+                "startDate": "2026-06-18T15:52:00.000Z",
+                "endDate": "2026-06-25T15:00:00.000Z"
+            }
+        },
+        "price": {
+            "_id": "6a3416590304050192c06764",
+            "namespace": "e2d49ab2557448a2a9724c42999066f1",
+            "country": "US",
+            "offerId": "4943ede186ff4b67840e3e59ecdaf76c",
+            "__v": 0,
+            "appliedRules": [
+                {
+                    "id": "09143d5026644a7d94542b8b247c99fb",
+                    "name": "Free Games Mobile",
+                    "namespace": "e2d49ab2557448a2a9724c42999066f1",
+                    "promotionStatus": "ACTIVE",
+                    "startDate": "2026-06-18T15:00:00.000Z",
+                    "endDate": "2026-06-25T15:00:00.000Z",
+                    "saleType": "REGULAR",
+                    "regionIds": [
+                        "AE",
+                        "AFRICA",
+                        "ANZ",
+                        "AR",
+                        "AU",
+                        "BG",
+                        "BR2",
+                        "CA",
+                        "CH",
+                        "CIS",
+                        "CL2",
+                        "CN2",
+                        "CO2",
+                        "CR2",
+                        "CZ",
+                        "DK",
+                        "EAST",
+                        "EURO",
+                        "GB",
+                        "HK2",
+                        "HU",
+                        "ID2",
+                        "IL",
+                        "IN2",
+                        "JP",
+                        "KR2",
+                        "KZ",
+                        "LATAM",
+                        "MIDEAST",
+                        "MX2",
+                        "MY2",
+                        "NO",
+                        "NZ",
+                        "PE2",
+                        "PH2",
+                        "PL",
+                        "QA",
+                        "RO",
+                        "ROW",
+                        "RU",
+                        "SA",
+                        "SE",
+                        "SEA",
+                        "SG2",
+                        "TH2",
+                        "TR",
+                        "TW2",
+                        "UA",
+                        "US",
+                        "UY2",
+                        "VN2",
+                        "ZA2"
+                    ],
+                    "discountSetting": {
+                        "discountType": "PERCENTAGE",
+                        "discountValue": null,
+                        "discountPercentage": 0,
+                        "_id": "6a341658fd62087a52913158"
+                    },
+                    "promotionSetting": {
+                        "promotionType": "SIMPLE",
+                        "discountOffers": [
+                            {
+                                "offerId": "bb800dbdf3614954979eed03f517f670",
+                                "_id": "6a341658fd62087a5291315a"
+                            },
+                            {
+                                "offerId": "4943ede186ff4b67840e3e59ecdaf76c",
+                                "_id": "6a341658fd62087a5291315b"
+                            }
+                        ],
+                        "_id": "6a341658fd62087a52913159"
+                    },
+                    "_id": "6a341658fd62087a52913157"
+                }
+            ],
+            "price": {
+                "currencyCode": "USD",
+                "discount": 599,
+                "discountPrice": 0,
+                "originalPrice": 599,
+                "basePayoutCurrencyCode": "USD",
+                "basePayoutPrice": 0,
+                "payoutCurrencyExchangeRate": 1,
+                "_id": "6a341658fd62087a52913156"
+            },
+            "region": "US",
+            "updatedAt": "2026-06-18T16:01:28.864Z"
+        }
+    },
+    {
+        "_id": "2661919676",
+        "id": "bb800dbdf3614954979eed03f517f670",
+        "namespace": "e2d49ab2557448a2a9724c42999066f1",
+        "title": "Construction Simulator 3",
+        "description": "Build your company in a European town with 50+ licensed vehicles. Complete contracts such as roadwork and house-building, unlock new vehicles, and shape the skyline with over 70 new challenges.",
+        "offerType": "BASE_GAME",
+        "effectiveDate": "2026-06-18T15:00:00.000Z",
+        "creationDate": "2026-04-29T08:01:45.903Z",
+        "lastModifiedDate": "2026-06-18T14:13:10.260Z",
+        "isCodeRedemptionOnly": false,
+        "keyImages": [
+            {
+                "type": "OfferImageWide",
+                "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-2zi7w.jpg",
+                "md5": "a805f32f7860ae79b2610d8eace9c183"
+            },
+            {
+                "type": "OfferImageTall",
+                "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-1goxf.jpg",
+                "md5": "90fc2c2aa3cb144f45cfc345a475d663"
+            },
+            {
+                "type": "Thumbnail",
+                "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-1goxf.jpg",
+                "md5": "90fc2c2aa3cb144f45cfc345a475d663"
+            },
+            {
+                "type": "featuredMedia",
+                "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-15xto.jpg",
+                "md5": "098f6bcd4621d373cade4e832627b4f6"
+            },
+            {
+                "type": "featuredMedia",
+                "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-1wwcj.jpg",
+                "md5": "098f6bcd4621d373cade4e832627b4f6"
+            },
+            {
+                "type": "featuredMedia",
+                "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-g5btc.jpg",
+                "md5": "098f6bcd4621d373cade4e832627b4f6"
+            },
+            {
+                "type": "featuredMedia",
+                "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-oqmmq.jpg",
+                "md5": "098f6bcd4621d373cade4e832627b4f6"
+            },
+            {
+                "type": "featuredMedia",
+                "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-3is9m.jpg",
+                "md5": "098f6bcd4621d373cade4e832627b4f6"
+            },
+            {
+                "type": "featuredMedia",
+                "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-1hokr.jpg",
+                "md5": "098f6bcd4621d373cade4e832627b4f6"
+            },
+            {
+                "type": "featuredMedia",
+                "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-lqfza.jpg",
+                "md5": "098f6bcd4621d373cade4e832627b4f6"
+            },
+            {
+                "type": "featuredMedia",
+                "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-yg846.jpg",
+                "md5": "098f6bcd4621d373cade4e832627b4f6"
+            },
+            {
+                "type": "featuredMedia",
+                "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-pghhf.jpg",
+                "md5": "098f6bcd4621d373cade4e832627b4f6"
+            }
+        ],
+        "seller": {
+            "id": "o-e7sqcutqs4wuy9kr6dpy7gyqt9tchh",
+            "name": "Store Rider"
+        },
+        "productSlug": null,
+        "urlSlug": "construction-simulator-3-01",
+        "url": null,
+        "tags": [
+            {
+                "id": "1393",
+                "name": "Simulation"
+            },
+            {
+                "id": "1381",
+                "name": "Exploration"
+            },
+            {
+                "id": "1146",
+                "name": "City Builder"
+            },
+            {
+                "id": "1370",
+                "name": "Single Player"
+            },
+            {
+                "id": "39070",
+                "name": "iOS"
+            }
+        ],
+        "items": [
+            {
+                "_id": "3eb5fa09ab6c48d6aba05252f2c13cd2",
+                "id": "3eb5fa09ab6c48d6aba05252f2c13cd2",
+                "namespace": "e2d49ab2557448a2a9724c42999066f1",
+                "title": "Construction Simulator 3",
+                "description": "Build your company in a European town with 50+ licensed vehicles. Complete contracts such as roadwork and house-building, unlock new vehicles, and shape the skyline with over 70 new challenges.",
+                "keyImages": [
+                    {
+                        "type": "DieselGameBox",
+                        "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-1af4q.jpg",
+                        "md5": "a805f32f7860ae79b2610d8eace9c183"
+                    },
+                    {
+                        "type": "DieselGameBoxTall",
+                        "url": "https://cdn1.epicgames.com/spt-assets/0f2312fd1acc40af8ede297e257b1cd5/construction-simulator-3-4498u.jpg",
+                        "md5": "90fc2c2aa3cb144f45cfc345a475d663"
+                    }
+                ],
+                "categories": [
+                    {
+                        "path": "games",
+                        "_id": "6a3b0ad2373c14ab8cdddf71"
+                    },
+                    {
+                        "path": "applications",
+                        "_id": "6a3b0ad2373c14ab8cdddf72"
+                    }
+                ],
+                "status": "ACTIVE",
+                "creationDate": "2026-04-29T08:01:45.786Z",
+                "lastModifiedDate": "2026-04-29T08:01:45.786Z",
+                "customAttributes": [
+                    {
+                        "key": "FolderName",
+                        "type": "STRING",
+                        "value": "ConstructionSimulato78cc5"
+                    }
+                ],
+                "entitlementName": "3eb5fa09ab6c48d6aba05252f2c13cd2",
+                "entitlementType": "EXECUTABLE",
+                "itemType": "DURABLE",
+                "releaseInfo": [
+                    {
+                        "id": "b48abee0-c8b6-4c7f-972e-157f0d160d40",
+                        "appId": "110ce33a1eb5487084ef7bc93f8dd772",
+                        "platform": [
+                            "iOS"
+                        ],
+                        "_id": "6a3b0ad2373c14ab8cdddf73"
+                    }
+                ],
+                "developer": "Store Rider",
+                "developerId": "o-e7sqcutqs4wuy9kr6dpy7gyqt9tchh",
+                "eulaIds": [],
+                "installModes": [],
+                "endOfSupport": false,
+                "applicationId": "fghi4567Kuy8zMfGT226PsHA331lLV8S",
+                "unsearchable": false,
+                "requiresSecureAccount": false,
+                "linkedOffers": [],
+                "__v": 12
+            },
+            {
+                "_id": "6da60a05d5564571b34b328d4fa5d76c",
+                "id": "6da60a05d5564571b34b328d4fa5d76c",
+                "namespace": "e2d49ab2557448a2a9724c42999066f1",
+                "title": "Construction Simulator 3_IOS_BaseGameAudience",
+                "description": "Construction Simulator 3_IOS_BaseGameAudience",
+                "categories": [
+                    {
+                        "path": "audience",
+                        "_id": "6a39be48930da10c4c0e403c"
+                    },
+                    {
+                        "path": "public",
+                        "_id": "6a39be48930da10c4c0e403d"
+                    }
+                ],
+                "status": "ACTIVE",
+                "creationDate": "2026-04-29T08:01:45.792Z",
+                "lastModifiedDate": "2026-04-29T08:01:46.497Z",
+                "customAttributes": [],
+                "entitlementName": "6da60a05d5564571b34b328d4fa5d76c",
+                "entitlementType": "AUDIENCE",
+                "itemType": "DURABLE",
+                "developer": "Store Rider",
+                "developerId": "o-e7sqcutqs4wuy9kr6dpy7gyqt9tchh",
+                "eulaIds": [],
+                "installModes": [],
+                "endOfSupport": false,
+                "unsearchable": false,
+                "requiresSecureAccount": false,
+                "linkedOffers": [],
+                "keyImages": [],
+                "releaseInfo": [],
+                "__v": 9
+            }
+        ],
+        "customAttributes": {
+            "autoGeneratedPrice": {
+                "type": "STRING",
+                "value": "false"
+            },
+            "iosCatalogItemId": {
+                "type": "STRING",
+                "value": "3eb5fa09ab6c48d6aba05252f2c13cd2"
+            },
+            "isManuallySetViewableDate": {
+                "type": "STRING",
+                "value": "true"
+            },
+            "isPromotionalContentUsed": {
+                "type": "STRING",
+                "value": "false"
+            },
+            "isManuallySetPCReleaseDate": {
+                "type": "STRING",
+                "value": "true"
+            },
+            "isBlockchainUsed": {
+                "type": "STRING",
+                "value": "false"
+            }
+        },
+        "categories": [
+            "freegames",
+            "games",
+            "games/edition",
+            "games/edition/base"
+        ],
+        "developerDisplayName": "Astragon",
+        "publisherDisplayName": "StoreRider",
+        "prePurchase": null,
+        "releaseDate": "2026-06-18T15:00:00.000Z",
+        "pcReleaseDate": "2019-04-10T00:00:00.000Z",
+        "viewableDate": "2026-06-18T15:00:00.000Z",
+        "countriesBlacklist": [
+            "CN"
+        ],
+        "countriesWhitelist": null,
+        "refundType": "SELF_REFUNDABLE",
+        "giveaway": {
+            "_id": "6a3416f72520559c49ae2c9d",
+            "platform": "ios",
+            "offerId": "bb800dbdf3614954979eed03f517f670",
+            "startDate": "2026-06-18T15:52:00.000Z",
+            "endDate": "2026-06-25T15:00:00.000Z",
+            "historical": {
+                "_id": "6a3416f72520559c49ae2c9d",
+                "platform": "ios",
+                "offerId": "bb800dbdf3614954979eed03f517f670",
+                "startDate": "2026-06-18T15:52:00.000Z",
+                "endDate": "2026-06-25T15:00:00.000Z"
+            }
+        },
+        "price": {
+            "_id": "6a34166a0304050192c06779",
+            "offerId": "bb800dbdf3614954979eed03f517f670",
+            "country": "US",
+            "namespace": "e2d49ab2557448a2a9724c42999066f1",
+            "__v": 0,
+            "appliedRules": [
+                {
+                    "id": "09143d5026644a7d94542b8b247c99fb",
+                    "name": "Free Games Mobile",
+                    "namespace": "e2d49ab2557448a2a9724c42999066f1",
+                    "promotionStatus": "ACTIVE",
+                    "startDate": "2026-06-18T15:00:00.000Z",
+                    "endDate": "2026-06-25T15:00:00.000Z",
+                    "saleType": "REGULAR",
+                    "regionIds": [
+                        "AE",
+                        "AFRICA",
+                        "ANZ",
+                        "AR",
+                        "AU",
+                        "BG",
+                        "BR2",
+                        "CA",
+                        "CH",
+                        "CIS",
+                        "CL2",
+                        "CN2",
+                        "CO2",
+                        "CR2",
+                        "CZ",
+                        "DK",
+                        "EAST",
+                        "EURO",
+                        "GB",
+                        "HK2",
+                        "HU",
+                        "ID2",
+                        "IL",
+                        "IN2",
+                        "JP",
+                        "KR2",
+                        "KZ",
+                        "LATAM",
+                        "MIDEAST",
+                        "MX2",
+                        "MY2",
+                        "NO",
+                        "NZ",
+                        "PE2",
+                        "PH2",
+                        "PL",
+                        "QA",
+                        "RO",
+                        "ROW",
+                        "RU",
+                        "SA",
+                        "SE",
+                        "SEA",
+                        "SG2",
+                        "TH2",
+                        "TR",
+                        "TW2",
+                        "UA",
+                        "US",
+                        "UY2",
+                        "VN2",
+                        "ZA2"
+                    ],
+                    "discountSetting": {
+                        "discountType": "PERCENTAGE",
+                        "discountValue": null,
+                        "discountPercentage": 0,
+                        "_id": "6a34166afd62087a5291662f"
+                    },
+                    "promotionSetting": {
+                        "promotionType": "SIMPLE",
+                        "discountOffers": [
+                            {
+                                "offerId": "bb800dbdf3614954979eed03f517f670",
+                                "_id": "6a34166afd62087a52916631"
+                            },
+                            {
+                                "offerId": "4943ede186ff4b67840e3e59ecdaf76c",
+                                "_id": "6a34166afd62087a52916632"
+                            }
+                        ],
+                        "_id": "6a34166afd62087a52916630"
+                    },
+                    "_id": "6a34166afd62087a5291662e"
+                }
+            ],
+            "price": {
+                "currencyCode": "USD",
+                "discount": 599,
+                "discountPrice": 0,
+                "originalPrice": 599,
+                "basePayoutCurrencyCode": "USD",
+                "basePayoutPrice": 0,
+                "payoutCurrencyExchangeRate": 1,
+                "_id": "6a34166afd62087a5291662d"
+            },
+            "region": "US",
+            "updatedAt": "2026-06-18T16:01:46.128Z"
+        }
+    }
+]
