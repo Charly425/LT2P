@@ -1,0 +1,10 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {A}Antecedentes}{2}{}%
+\contentsline {section}{\numberline {B}Sección A}{2}{}%
+\contentsline {section}{\numberline {C}Sección B}{3}{}%
+\contentsline {section}{\numberline {D}Sección C}{3}{}%
+\contentsline {section}{\numberline {E}Sección D}{3}{}%
+\contentsline {section}{\numberline {F}Sección E}{3}{}%
+\contentsline {section}{\numberline {G}Sección F}{3}{}%
+\contentsline {section}{\numberline {H}Aspectos técnicos}{4}{}%
+\contentsline {subsection}{\numberline {\es@scroman {i}}Objetivo 1}{4}{}%
