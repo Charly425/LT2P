@@ -1,0 +1,127 @@
+/* Reseteo básico y tipografía */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body { 
+    /* Tipografía oficial (Motiva Sans) con fuentes seguras de respaldo */
+    font-family: "Motiva Sans", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    /* Degradado radial oficial del cliente de Steam */
+    background: radial-gradient(circle at top center, #2a475e 0%, #1b2838 40%, #171a21 100%);
+    color: #c7d5e0; /* Gris azulado para lectura cómoda en fondos oscuros */
+    line-height: 1.6; 
+    background-attachment: fixed; /* Evita que el fondo se mueva al hacer scroll */
+}
+
+/* Títulos y acentos visuales */
+h1, h2 {
+    color: #ffffff;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+strong {
+    color: #66c0f4; /* Azul brillante clásico de Steam para enfatizar texto */
+    font-weight: 600;
+}
+
+/* 1. y 3. Cajas horizontales completas (Cabecera y Despedida) */
+.seccion-completa {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    margin: 0; 
+    /* Fondo oscuro semitransparente estilo Navbar */
+    background-color: rgba(23, 26, 33, 0.85); 
+    border: none;
+}
+
+/* 2. Secciones centrales divididas (Scrollytelling) */
+#scrolly, #scrolly-2, #scrolly-3 {
+    display: flex;
+    position: relative;
+    padding: 0 1rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: transparent; /* Deja ver el degradado principal */
+    border: none;
+}
+
+/* Columna Izquierda (Narrativa) */
+#narrativa, #narrativa-2, #narrativa-3 {
+    width: 50%;
+    padding: 2rem;
+}
+
+.step, .step-2, .step-3 {
+    min-height: 100vh; /* Cada paso toma la altura de la pantalla para forzar el scroll */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20vh;
+    opacity: 0.3; /* Efecto visual: se opaca cuando no está activo */
+    transition: opacity 0.5s ease;
+}
+
+.step.is-active, .step-2.is-active, .step-3.is-active {
+    opacity: 1; /* Se ilumina al hacer scroll sobre él */
+}
+
+/* Columna Derecha (Gráfica Fija) */
+#grafico-fijo, #grafico-fijo-2, #grafico-fijo-3 {
+    width: 50%;
+    position: sticky; /* ¡La magia del scrollytelling! */
+    top: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Contenedores de D3.js (Tarjetas Iluminadas) */
+#contenedor-d3, #contenedor-d3-2, #contenedor-d3-3 {
+    width: 100%;
+    height: 80%;
+    /* Fondo claro para que los gráficos negros/azules sean legibles */
+    background-color: #e5e8ea; 
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Efecto de elevación/flotación sobre el fondo oscuro */
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.6);
+    border-top: 1px solid rgba(255, 255, 255, 0.1); 
+}
+
+/* Tooltip Interactivo */
+.tooltip-d3 {
+    position: absolute;
+    text-align: center;
+    padding: 8px 12px;
+    font-size: 13px;
+    background: rgba(42, 71, 94, 0.9); /* Azul oscuro corporativo */
+    color: white;
+    border-radius: 6px;
+    pointer-events: none; 
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    z-index: 1000;
+    font-family: sans-serif;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.3);
+}
+
+/* --- CORRECCIÓN DE CONTRASTE PARA GRÁFICAS D3 --- */
+#contenedor-d3 svg, 
+#contenedor-d3-2 svg, 
+#contenedor-d3-3 svg {
+    /* Fuerza a que las líneas de los ejes y números usen un azul marino muy oscuro */
+    color: #1b2838; 
+}
+
+#contenedor-d3 text, 
+#contenedor-d3-2 text, 
+#contenedor-d3-3 text {
+    /* Asegura que cualquier texto suelto generado por D3 tenga alto contraste */
+    fill: #1b2838; 
+}

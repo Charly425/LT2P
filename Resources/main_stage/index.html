@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diseño de Información Computacional - Steam</title>
+    <!-- Hoja de estilos principal -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- D3.js v7 vía CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+</head>
+<body>
+
+    <!-- 1. SECCIÓN SUPERIOR: Antecedentes y Mención CEO -->
+    <header class="seccion-completa" id="antecedentes">
+        <div class="contenido-centrado">
+            <h1>Un recorrido sobre "lo mejor" y "lo peor" de STEAM</h1>
+            <div class="texto-antecedentes" style="text-align: left; max-width: 800px; margin: 0 auto;">
+                <p>Antes de entrar en materia y hablar a profundidad de Steam, es imposible dejar de lado a su empresa matriz y, aún más importante, a su fundador: <strong>Gabe Newell</strong>. Nacido el 3 de noviembre de 1962 en Colorado, E.U. Siempre fue un hombre de visión excepcional y entusiasta de los videojuegos.</p>
+            
+                <p>Tuvo la oportunidad de estudiar en Harvard pero su estadía no duraría lo suficiente como para terminar la carrera, puesto que <em>aproximadamente en 1983</em> empezaría a trabajar en Microsoft tras la sugerencia de <strong>Steve Ballmer</strong> <q>CEO en aquel tiempo</q> de <q>hacer algo útil</q>. Dentro de dicha compañía, Newell pasaría los próximos 13 años de su vida desarrollando y siendo parte de las primeras versiones de Windows. Hasta que en 1996, junto con un compañero de trabajo, <strong>Mike Harrington</strong>, tomaría la decisión de fundar Valve Corporation con la intención de seguir su pasión por los videojuegos.</p>
+            
+                <p>Durante sus primeros pasos, Valve desarrollaría algunos de los videojuegos más legendarios de la época, tales como <q>Half-Life</q> o el tan afamado <q>Counter-Strike</q>. Sin embargo, la forma en la que se hacían las actualizaciones era un verdadero dolor de cabeza y necesitaban una alternativa. Por tal motivo, a mediados de 2002, Valve les presentaría un proyecto a empresas gigantescas como Microsoft, Yahoo! y Amazon para desarrollar una plataforma en conjunto.</p>
+            
+                <p>Desgraciadamente, ninguna de estas empresas mostró el suficiente interés o compromiso con el proyecto.</p>
+
+                <p>Aproximadamente un año más tarde Valve lanzaría oficialmente <strong>Steam</strong> y, apenas días después, <strong>Counter-Strike 2</strong>. Pero el lanzamiento no sería de forma aislada, de hecho se volvió obligatorio instalar Steam para poder realizar la actualización a Counter-Strike 2, lo que ayudó a la compañía a crear una base sólida de usuarios desde su salida. 
+
+                De esta manera lograban dos objetivos, brindarle a sus jugadores un cliente que se encargara de las tediosas actualizaciones y, al mismo tiempo, planteaban un ambiente único y propio; cuestión que más adelante le daría un impulso mucho más alto a la plataforma. Pues lo que comenzaría como un simple cliente, pronto se convertiría en un espacio donde los usuarios podían interactuar entre ellos, llevar el registro de sus logros e incluso poder disfrutar de otros juegos además de los desarrollados por Valve.</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. PRIMERA SECCIÓN CENTRAL: Scrollytelling (EpicGames VS Steam) -->
+    <main id="scrolly">
+        <article id="narrativa">
+            <div class="step" data-index="0">
+                <h2>EpicGames VS Steam</h2>
+                <p>En los primeros años de Epic, tras su salida a finales de 2018 hasta 2022, tuvo un enorme y constante crecimiento tanto de <strong>Usuarios Anuales</strong> como de <strong>Ganancias por Terceros</strong>. Todo gracias a la financiación generada tras el éxito de <strong>Fornite</strong>, la compra de múltiples exclusividades y la ridícula tarifa del <strong>12%</strong> por manejo de publicación en la plataforma.</p>
+
+                <p>Mientras que por aquellos años, y a pesar de mantener números considerablemente menores a Epic, Steam seguía siendo extremadamente confiable y preferida por la gran mayoría de los usuarios. Comenzando una escalada de éxito desde 2020, durante la pandemia de COVID-19 y tras el lanzamiento de su <strong>Steam Deck</strong> en 2022. Consolidando una retención del 75% del mercado global en la industria <i>Gaming</i> a finales de 2023. </p>
+            </div>
+            
+            <div class="step" data-index="1">
+                <p>A pesar de los múltiples intentos por parte de Epic Games para atraer a jugadores, mediante colaboraciones en Fornite y regalando juegos, todas las inversiones realizadas nunca llegaban a traducirse en compras dentro de la plataforma.</p>
+                
+                <p>Por si fuera poco, Steam no hacía más que crecer y mejorar en todos los aspectos en los que Epic no recibía más que críticas. Pronunciando aún más la constante por parte de los usuarios de reclamar los juegos gratis de Epic e ir a gastar su dinero en Steam.</p>
+
+                <p>No obstante Epic supo reconocer sus flaquezas y resolvió cómo desplegar adecuadamente su estrategia, corrigiendo el decaimiento tan desastroso que había estado sufriendo desde hace algunos años. Por lo que en 2025 volvieron a alzarse tras la modificación de su tarifa para desarrolladores de un 100% dentro del primer millón de dólares netos y la reconstrucción de su lanzador, mejorando el rendimiento para PC y móviles.</p>
+            </div>
+
+            <div class="step" data-index="2">
+                <p>Hoy en día, Steam aún ostenta alrededor de un 74% del mercado para PC gracias a todas sus virtudes y la enorme comunidad que ha construido. Sin embargo, Epic Games no se ha quedado atrás y sigue siendo un digno rival para la enorme plataforma de VALVE.</p>
+            </div>
+        </article>
+
+        <figure id="grafico-fijo">
+            <div id="contenedor-d3"></div>
+        </figure>
+    </main>
+
+    <!-- 3. SEGUNDA SECCIÓN CENTRAL: Scrollytelling (Indie vs AA vs AAA) -->
+    <main id="scrolly-2">
+        <article id="narrativa-2">
+            <!-- Nota: Utilizamos la clase "step-2" para no interferir con la gráfica de arriba -->
+            <div class="step-2" data-index="0">
+                <h2>El Espejismo de la Cantidad</h2>
+                <p>Si observamos la cantidad de juegos publicados, los títulos Indie arrasan por completo en el mercado, inundando la tienda con una oferta casi inabarcable en comparación a los grandes estudios y distribuidoras.</p>
+            </div>
+            
+            <div class="step-2" data-index="1">
+                <h2>El Alcance Real</h2>
+                <p>Sin embargo, al analizar las copias totales estimadas que residen en las bibliotecas de los usuarios, la narrativa cambia drásticamente. A pesar de ser una fracción minúscula de los lanzamientos totales, la maquinaria AAA toma la delantera absoluta.</p>
+            </div>
+
+            <div class="step-2" data-index="2">
+                <h2>El Control Financiero</h2>
+                <p>Finalmente, cuando cruzamos estos datos con los precios de salida base, la brecha de ganancias brutas se vuelve abismal. Los juegos AAA monopolizan los ingresos, eclipsando financieramente a la abrumadora cantidad de juegos de desarrollo independiente.</p>
+            </div>
+        </article>
+
+        <figure id="grafico-fijo-2">
+            <div id="contenedor-d3-2"></div>
+        </figure>
+    </main>
+
+    <!-- 4. TERCERA SECCIÓN CENTRAL: Bibliotecas como un pozo sin fondo -->
+    <main id="scrolly-3">
+        <article id="narrativa-3">
+            <div class="step-3" data-index="0">
+                <h2>El Espejismo de Actividad</h2>
+                <p>Al analizar los 5 géneros más populares del mercado, podríamos pensar que existe un ecosistema sumamente activo. Los picos de jugadores simultáneos muestran a decenas de miles de personas conectadas al mismo tiempo disfrutando de estos títulos.</p>
+            </div>
+            
+            <div class="step-3" data-index="1">
+                <h2>El Pozo Sin Fondo</h2>
+                <p>Sin embargo, si homologamos las escalas de medición y comparamos la actividad real contra la cantidad de copias estancadas en las bibliotecas de los usuarios, la realidad es abrumadora. Millones de dólares y gigabytes de software descansan en cuentas de Steam sin haber sido ejecutados, convirtiendo a las bibliotecas en un pozo sin fondo de acumulación digital.</p>
+            </div>
+        </article>
+
+        <figure id="grafico-fijo-3">
+            <div id="contenedor-d3-3"></div>
+        </figure>
+    </main>
+
+    <!-- 5. SECCIÓN INFERIOR: Conclusión y Despedida -->
+    <footer class="seccion-completa" id="despedida">
+        <div class="contenido-centrado">
+            <h2>/* Conclusión */</h2>
+            <p>Resumen de los hallazgos sobre la arquitectura de datos y mercado de Steam.</p>
+            <p>/* Despedida */ ¡Gracias por visualizar!</p>
+        </div>
+    </footer>
+
+    <!-- Scripts modulares -->
+    <script type="module" src="obj_1.js"></script>
+    <script type="module" src="obj_2.js"></script>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
