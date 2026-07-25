@@ -12,7 +12,7 @@ const pozoSinFondo = () => {
         try {
             const generos = {};
 
-            await d3.csv("../steam_data_set/game_analytics.csv", (d) => {
+            await d3.csv("steam_data_set/game_analytics.csv", (d) => {
                 const genero = d.genre_primary;
                 if (!genero) return;
 
@@ -47,6 +47,12 @@ const pozoSinFondo = () => {
         width = containerWidth - margin.left - margin.right;
         height = containerHeight - margin.top - margin.bottom;
 
+        // 1. Declarar y crear el tooltip genérico en el body
+        let tooltip = d3.select("body").select(".tooltip-d3");
+        if (tooltip.empty()) {
+            tooltip = d3.select("body").append("div").attr("class", "tooltip-d3");
+        }
+
         d3.select("#contenedor-d3-3").selectAll("*").remove();
 
         svg = d3.select("#contenedor-d3-3")
@@ -75,7 +81,7 @@ const pozoSinFondo = () => {
             .domain([0, maxCCU * 1.1])
             .range([centroX - 70, 0]);
 
-        // Dibujar Etiquetas Centrales (Evitamos superposición con text-anchor: middle)
+        // Dibujar Etiquetas Centrales
         chartGroup.selectAll(".label-genero")
             .data(dataset)
             .enter().append("text")
@@ -88,7 +94,7 @@ const pozoSinFondo = () => {
             .style("font-size", "14px")
             .style("fill", "#333");
 
-        // Barras Derechas (Dueños)
+        // --- CREACIÓN E INTERACTIVIDAD DE BARRAS DERECHAS (DUEÑOS) ---
         chartGroup.selectAll(".bar-right")
             .data(dataset)
             .enter().append("rect")
@@ -97,9 +103,22 @@ const pozoSinFondo = () => {
             .attr("y", d => y(d.genero))
             .attr("height", y.bandwidth())
             .attr("width", 0) // Inician en 0
-            .attr("fill", "#2643a3"); // Azul Steam
+            .attr("fill", "#2643a3") // Azul Steam
+            .on("mouseover", function(event, d) {
+                d3.select(this).style("opacity", 0.7);
+                tooltip.style("opacity", 1)
+                        .html(`<strong>${d.genero}</strong><br>Copias: ${Math.round(d.owners).toLocaleString()}`);
+            })
+            .on("mousemove", function(event) {
+                tooltip.style("left", (event.pageX + 15) + "px")
+                        .style("top", (event.pageY - 25) + "px");
+            })
+            .on("mouseleave", function(event, d) {
+                d3.select(this).style("opacity", 1);
+                tooltip.style("opacity", 0);
+            });
 
-        // Barras Izquierdas (CCU)
+        // --- CREACIÓN E INTERACTIVIDAD DE BARRAS IZQUIERDAS (CCU) ---
         chartGroup.selectAll(".bar-left")
             .data(dataset)
             .enter().append("rect")
@@ -108,10 +127,24 @@ const pozoSinFondo = () => {
             .attr("y", d => y(d.genero))
             .attr("height", y.bandwidth())
             .attr("width", 0) // Inician en 0
-            .attr("fill", "#c7d5e0");
+            .attr("fill", "#c7d5e0")
+            .on("mouseover", function(event, d) {
+                d3.select(this).style("opacity", 0.7);
+                tooltip.style("opacity", 1)
+                        .html(`<strong>${d.genero}</strong><br>Jugadores Activos: ${Math.round(d.ccu).toLocaleString()}`);
+            })
+            .on("mousemove", function(event) {
+                tooltip.style("left", (event.pageX + 15) + "px")
+                        .style("top", (event.pageY - 25) + "px");
+            })
+            .on("mouseleave", function(event, d) {
+                d3.select(this).style("opacity", 1);
+                tooltip.style("opacity", 0);
+            });
 
         // Títulos estáticos superiores
         chartGroup.append("text")
+            .attr("class","titulo-izquierdo")
             .attr("x", centroX - 70)
             .attr("y", -20)
             .attr("text-anchor", "end")
@@ -147,6 +180,10 @@ const pozoSinFondo = () => {
             // BLOQUE 0: Escalas Independientes (Muestran los datos "inflados")
             xLeft.domain([0, maxCCU * 1.1]);
 
+            // Actualizar título izquierdo
+            chartGroup.select(".titulo-izquierdo")
+                .text("Jugadores Simultáneos (Miles)");
+
             // Actualizar Eje Izquierdo
             chartGroup.select(".eje-izquierdo")
                 .transition().duration(800)
@@ -168,6 +205,10 @@ const pozoSinFondo = () => {
             // Forzamos a la izquierda a usar la escala masiva de la derecha
             xLeft.domain([0, maxOwners * 1.1]);
 
+            // Actualizar título izquierdo
+            chartGroup.select(".titulo-izquierdo")
+                .text("Jugadores Simultáneos (Millones)");
+
             // Actualizar Eje Izquierdo
             chartGroup.select(".eje-izquierdo")
                 .transition().duration(800)
@@ -177,7 +218,7 @@ const pozoSinFondo = () => {
             chartGroup.selectAll(".bar-left")
                 .transition().duration(800)
                 .attr("x", d => xLeft(d.ccu)) // Ahora esto dará casi el punto central
-                .attr("width", d => Math.max(1, (centroX - 70) - xLeft(d.ccu))) // Math.max(1) para que no desaparezca 100%
+                .attr("width", d => Math.max(2, (centroX - 70) - xLeft(d.ccu))) // Math.max(2) para usabilidad
                 .attr("fill", "#d9534f"); // Cambia a rojo para impacto narrativo
         }
     }

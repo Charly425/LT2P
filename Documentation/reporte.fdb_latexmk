@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1784846355.12431 "c:/Users/jose_/Documents/UAM/UAM TRI6/LabTemII/ProyectoFinalLT/Documentation/doc.tex" "doc.pdf" "doc" 1784846357.79526 0
+["pdflatex"] 1784944067.96365 "c:/Users/jose_/Documents/UAM/UAM TRI6/LabTemII/ProyectoFinalLT/Documentation/reporte.tex" "reporte.pdf" "reporte" 1784944070.53047 0
   "C:/Users/jose_/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1784021955 123019 4e6d54fe28a67ad1b512b0cc9d03c2e8 ""
   "C:/Users/jose_/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1780974338 13367095 e7dfce6524dccea44545427300f7f3b1 ""
   "C:/Users/jose_/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -97,15 +97,15 @@
   "C:/Users/jose_/AppData/Local/Programs/MiKTeX/tex/latex/upquote/upquote.sty" 1335534756 1088 517e01cde97c1c0baf72e69d43aa5a2e ""
   "C:/Users/jose_/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/jose_/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "c:/Users/jose_/Documents/UAM/UAM TRI6/LabTemII/ProyectoFinalLT/Documentation/doc.tex" 1784846354 6677 94d5a074a6f4b4fa743c56031aceefcf ""
-  "doc.aux" 1784846357 1750 3187937a234b94a069f22d59e674528a "pdflatex"
-  "doc.out" 1784846357 1084 a45a21330df67fc2eb2768bd1a9f179f "pdflatex"
-  "doc.tex" 1784846354 6677 94d5a074a6f4b4fa743c56031aceefcf ""
-  "doc.toc" 1784846357 858 0389c03462729d200e6fa793889de13e "pdflatex"
+  "c:/Users/jose_/Documents/UAM/UAM TRI6/LabTemII/ProyectoFinalLT/Documentation/reporte.tex" 1784944067 2411 f1f8336509833de38acae7ddcf21d443 ""
+  "reporte.aux" 1784944070 1202 e00d1e7712632982bfbb3988bdbe4554 "pdflatex"
+  "reporte.out" 1784944070 611 a1e276ca83f6739a3844095192e00823 "pdflatex"
+  "reporte.tex" 1784944067 2411 f1f8336509833de38acae7ddcf21d443 ""
+  "reporte.toc" 1784944070 497 38be4c8826e6c01b3bf45858e83dc634 "pdflatex"
   (generated)
-  "doc.aux"
-  "doc.log"
-  "doc.out"
-  "doc.pdf"
-  "doc.toc"
+  "reporte.aux"
+  "reporte.log"
+  "reporte.out"
+  "reporte.pdf"
+  "reporte.toc"
   (rewritten before read)

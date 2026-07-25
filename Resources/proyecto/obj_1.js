@@ -1,12 +1,9 @@
-// obj_1.js
 const contrasteMonopolio = () => {
-    // --- VARIABLES PRIVADAS ---
     let svg, width, height;
     let datasetFinal = []; 
-    // Márgenes laterales amplios (120) para anclar los ejes
     const margin = { top: 80, right: 120, bottom: 50, left: 120 };
 
-    // 1. Base de datos manual de Epic Games 
+    // --- Base de datos manual de Epic Games 
     const epicData = [
         { anio: "2018", usuariosActivos: 0, gananciasTerceros: 0 }, 
         { anio: "2019", usuariosActivos: 7000000, gananciasTerceros: 251000000 }, 
@@ -18,7 +15,7 @@ const contrasteMonopolio = () => {
         { anio: "2025", usuariosActivos: 40000000, gananciasTerceros: 330000000 }  
     ];
 
-    // 2. Función matemática de Usuarios (CON RETENCIÓN Y EXTRAPOLACIÓN)
+    // --- Función para el cálculo de usuarios anuales (Steam) ---
     const calcularUsuariosPorAno = function (datos) {
         const usuarios = { "2018": 0, "2019": 0, "2020": 0, "2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0 };
         const factorEscala = 25; 
@@ -37,11 +34,10 @@ const contrasteMonopolio = () => {
                 else if (diff >= 4 && diff <= 7) usuarios[anioActual.toString()] += ccuExtrapolado * 0.07;
             }
         });
-        
         return usuarios;
     };
 
-    // 3. Fusión de datos estructurados para las coordenadas paralelas
+    // --- Fusión de datos estructurados para las coordenadas paralelas ---
     function combinarDatos(datosSteamGanancias, datosSteamUsuarios, datosEpic) {
         const combinados = [];
 
@@ -66,10 +62,10 @@ const contrasteMonopolio = () => {
         return combinados;
     }
 
-    // --- PROCESAMIENTO PRINCIPAL ---
+    // --- Procesamiento del Archivo  ---
     async function procesarCSV() {
         try {
-            const cleanData = await d3.csv("../steam_data_set/game_analytics.csv", (d) => {
+            const cleanData = await d3.csv("steam_data_set/game_analytics.csv", (d) => {
                 return {
                     id: +d.appid,
                     nombre: d.name,
@@ -106,7 +102,7 @@ const contrasteMonopolio = () => {
         }
     };
 
-    // --- SECCIÓN OPTIMIZADA ---
+    // --- Calculo de ganancias por juego (Optimizado) ---
     const gananciasPorJuego = function (objetosFiltrados) {
         try {
             return objetosFiltrados.map((d) => {
@@ -161,7 +157,7 @@ const contrasteMonopolio = () => {
         width = containerWidth - margin.left - margin.right;
         height = containerHeight - margin.top - margin.bottom;
 
-        // 1. Crear el tooltip en el body si no existe
+        // Creamos el Tooltip en el 'body' si aún no existe 
         let tooltip = d3.select("body").select(".tooltip-d3");
         if (tooltip.empty()) {
             tooltip = d3.select("body").append("div").attr("class", "tooltip-d3");
@@ -176,11 +172,11 @@ const contrasteMonopolio = () => {
             .append("g")
             .attr("transform", `translate(${margin.left},${margin.top})`);
 
-        // --- NUEVO: Leyenda permanente (Centrado Absoluto) ---
+        // Leyenda de plataformas (Centrado)
         const leyenda = svg.append("g")
-            .attr("transform", `translate(${width / 2}, -55)`); // Anclaje exacto a la mitad
+            .attr("transform", `translate(${width / 2}, -55)`); 
 
-        // Grupo Steam (Desplazado a la izquierda del centro)
+        // Steam (Desplazado a la izquierda del centro)
         leyenda.append("rect")
             .attr("x", -100).attr("y", -12).attr("width", 15).attr("height", 15).attr("rx", 3)
             .style("fill", "#2643a3");
@@ -189,7 +185,7 @@ const contrasteMonopolio = () => {
             .text("Steam")
             .style("font-size", "14px").style("font-weight", "bold").style("fill", "#333");
 
-        // Grupo Epic Games (Desplazado a la derecha del centro)
+        // Epic Games (Desplazado a la derecha del centro)
         leyenda.append("rect")
             .attr("x", 10).attr("y", -12).attr("width", 15).attr("height", 15).attr("rx", 3)
             .style("fill", "#3e4e58");
@@ -197,13 +193,12 @@ const contrasteMonopolio = () => {
             .attr("x", 35).attr("y", 0)
             .text("Epic Games")
             .style("font-size", "14px").style("font-weight", "bold").style("fill", "#333");
-        // ---------------------------------
+
 
         const dimensiones = ["usuariosActivos", "gananciasTerceros"];
-
         const x = d3.scalePoint()
             .range([0, width])
-            .padding(0) // <-- CORRECCIÓN: Padding a 0 para forzar a los ejes a los bordes
+            .padding(0) 
             .domain(dimensiones);
 
         const y = {};
@@ -217,7 +212,7 @@ const contrasteMonopolio = () => {
             return d3.line()(dimensiones.map(p => [x(p), y[p](d[p])]));
         }
 
-        // 2. Dibujamos las líneas con el parche anti-fantasmas
+        // Trazado de lines con Path (Solo lineas activas)
         svg.selectAll("myPath")
             .data(datasetFinal)
             .enter().append("path")
@@ -228,12 +223,12 @@ const contrasteMonopolio = () => {
             .style("stroke-width", 2.5)
             .style("opacity", 0) 
             .on("mouseover", function(event, d) {
-                // Filtramos para opacar SOLO las líneas que están activas
+                // Se opacan solo líneas ACTIVAS
                 d3.selectAll(".ruta-plataforma")
                     .filter(function() { return d3.select(this).style("pointer-events") === "auto"; })
                     .style("opacity", 0.15);
 
-                // Resaltar la línea actual
+                // Resaltado de línea ACTUAL
                 d3.select(this)
                     .style("opacity", 1)
                     .style("stroke-width", 4.5);
@@ -255,7 +250,7 @@ const contrasteMonopolio = () => {
                 updateChart(currentIndex); 
             });
 
-        // 3. Dibujar Ejes Y (Alternando Izquierda y Derecha)
+        // Ejes Y (Postes intercalados)
         dimensiones.forEach((dim, i) => {
             const ejeY = svg.append("g")
                 .attr("transform", `translate(${x(dim)}, 0)`)
@@ -276,7 +271,7 @@ const contrasteMonopolio = () => {
         });
     }
 
-    // --- REVELACIÓN ---
+    // --- Posteo de funciones ---
     async function setup() {
         const cargaExitosa = await procesarCSV();
         if (cargaExitosa && datasetFinal.length > 0) {
@@ -285,6 +280,7 @@ const contrasteMonopolio = () => {
         }
     }
 
+    // --- Seguimiento de la narrativa (Actualiza el gráfico) ---
     function updateChart(stepIndex) {
         if (!svg) return;
         const parsedIndex = parseInt(stepIndex);

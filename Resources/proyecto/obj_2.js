@@ -18,7 +18,7 @@ const contrasteTiers = () => {
                 "AAA": { tier: "AAA", juegos: 0, dueños: 0, ganancias: 0 }
             };
 
-            await d3.csv("../steam_data_set/game_analytics.csv", (d) => {
+            await d3.csv("steam_data_set/game_analytics.csv", (d) => {
                 const tier = d.publisher_tier;
                 // Si el tier existe en nuestro objeto, acumulamos los valores
                 if (metricas[tier]) {
@@ -85,16 +85,16 @@ const contrasteTiers = () => {
 
         // Definir qué métrica leer según la etapa del scroll
         let metricaActiva = "juegos";
-        let textoTitulo = "Saturación del Mercado: Cantidad de Juegos Publicados";
+        let textoTitulo = "Cantidad de Juegos Publicados";
         let formatoEjeY = d3.format("d"); // Números enteros simples
 
         if (parsedIndex === 1) {
             metricaActiva = "dueños";
-            textoTitulo = "Alcance Real: Copias Totales en Bibliotecas";
+            textoTitulo = "Copias Totales en Bibliotecas";
             formatoEjeY = d3.format(".2s"); // Formato de millones (ej. 120M)
         } else if (parsedIndex >= 2) {
             metricaActiva = "ganancias";
-            textoTitulo = "Éxito Financiero: Ganancias Brutas Estimadas (USD)";
+            textoTitulo = "Ganancias Brutas Estimadas (USD)";
             formatoEjeY = d3.format("$.2s"); // Formato monetario en millones (ej. $2.2G)
         }
 

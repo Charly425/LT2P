@@ -1,17 +1,17 @@
 import contrasteMonopolio from "./obj_1.js";
 import contrasteTiers from "./obj_2.js"; 
-import pozoSinFondo from "./obj_3.js"; // Asegúrate de importar el obj_3
+import pozoSinFondo from "./obj_3.js"; 
 
 (() => {
     const setMonopolio = contrasteMonopolio();
     const setTiers = contrasteTiers();
-    const setPozo = pozoSinFondo(); // Instancia de la gráfica 3
+    const setPozo = pozoSinFondo(); 
 
     document.addEventListener("DOMContentLoaded", async () => {
         
         await setMonopolio.setup(); 
         await setTiers.setup();
-        await setPozo.setup(); // Inicialización de la gráfica 3
+        await setPozo.setup(); 
 
         const observerOptions = {
             root: null,

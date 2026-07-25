@@ -1,7 +1,7 @@
 PWD c:\Users\jose_\Documents\UAM\UAM TRI6\LabTemII\ProyectoFinalLT\Documentation
 INPUT C:\Users\jose_\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\jose_\Documents\UAM\UAM TRI6\LabTemII\ProyectoFinalLT\Documentation\doc.tex
-OUTPUT doc.log
+INPUT c:\Users\jose_\Documents\UAM\UAM TRI6\LabTemII\ProyectoFinalLT\Documentation\reporte.tex
+OUTPUT reporte.log
 INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\tex\latex\base\size11.clo
@@ -145,18 +145,18 @@ INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1bch.fd
 INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\fonts\tfm\bitstrea\charter\bchr8t.tfm
 INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\doc.aux
-INPUT .\doc.aux
-INPUT doc.aux
-OUTPUT doc.aux
-INPUT .\doc.out
-INPUT .\doc.out
-INPUT doc.out
-INPUT doc.out
-OUTPUT doc.pdf
-INPUT .\doc.out
-INPUT .\doc.out
-OUTPUT doc.out
+INPUT .\reporte.aux
+INPUT .\reporte.aux
+INPUT reporte.aux
+OUTPUT reporte.aux
+INPUT .\reporte.out
+INPUT .\reporte.out
+INPUT reporte.out
+INPUT reporte.out
+OUTPUT reporte.pdf
+INPUT .\reporte.out
+INPUT .\reporte.out
+OUTPUT reporte.out
 INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -165,9 +165,9 @@ INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\fonts\tfm\bitstrea\charter\bc
 INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\fonts\tfm\bitstrea\charter\bchri8t.tfm
 INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\fonts\tfm\bitstrea\charter\bchr8t.tfm
 INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\fonts\tfm\bitstrea\charter\bchb8t.tfm
-INPUT .\doc.toc
-INPUT .\doc.toc
-INPUT doc.toc
+INPUT .\reporte.toc
+INPUT .\reporte.toc
+INPUT reporte.toc
 INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\fonts\tfm\bitstrea\charter\bchb8t.tfm
 INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\fonts\tfm\bitstrea\charter\bchrc8t.tfm
 INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
@@ -178,7 +178,7 @@ INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
 INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
 INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
-OUTPUT doc.toc
+OUTPUT reporte.toc
 INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\fonts\vf\bitstrea\charter\bchr8t.vf
 INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\fonts\tfm\bitstrea\charter\bchr8r.tfm
 INPUT C:\Users\jose_\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
@@ -216,9 +216,9 @@ INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\fonts\vf\bitstrea\charter\bch
 INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\fonts\tfm\bitstrea\charter\bchr8r.tfm
 INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\fonts\vf\bitstrea\charter\bchr8t.vf
 INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\fonts\tfm\bitstrea\charter\bchr8r.tfm
-INPUT doc.aux
-INPUT .\doc.out
-INPUT .\doc.out
+INPUT reporte.aux
+INPUT .\reporte.out
+INPUT .\reporte.out
 INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\fonts\type1\bitstrea\charter\bchb8a.pfb
 INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\fonts\type1\bitstrea\charter\bchb8a.pfb
 INPUT C:\Users\jose_\AppData\Local\Programs\MiKTeX\fonts\type1\bitstrea\charter\bchr8a.pfb

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.8)  23 JUL 2026 16:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.8)  24 JUL 2026 19:47
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/jose_/Documents/UAM/UAM TRI6/LabTemII/ProyectoFinalLT/Documentation/doc.tex"
-(c:/Users/jose_/Documents/UAM/UAM TRI6/LabTemII/ProyectoFinalLT/Documentation/doc.tex
+**"c:/Users/jose_/Documents/UAM/UAM TRI6/LabTemII/ProyectoFinalLT/Documentation/reporte.tex"
+(c:/Users/jose_/Documents/UAM/UAM TRI6/LabTemII/ProyectoFinalLT/Documentation/reporte.tex
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-05-26>
 (C:\Users\jose_\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -343,40 +343,40 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
-LaTeX Font Info:    Trying to load font information for T1+bch on input line 40.
+LaTeX Font Info:    Trying to load font information for T1+bch on input line 32.
  (C:\Users\jose_\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1bch.fd
 File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 ) (C:\Users\jose_\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count335
-) (doc.aux
+) (reporte.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
 (babel)             Reported on input line 12.
 )
-\openout1 = `doc.aux'.
+\openout1 = `reporte.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Info: Redefining \. on input line 40.
-LaTeX Info: Redefining \% on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Info: Redefining \. on input line 32.
+LaTeX Info: Redefining \% on input line 32.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -412,10 +412,10 @@ LaTeX Info: Redefining \% on input line 40.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 40.
-(doc.out) (doc.out)
+Package hyperref Info: Link coloring OFF on input line 32.
+(reporte.out) (reporte.out)
 \@outlinefile=\write4
-\openout4 = `doc.out'.
+\openout4 = `reporte.out'.
 
  (C:\Users\jose_\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -430,7 +430,7 @@ Package hyperref Info: Link coloring OFF on input line 40.
 \MPnumerator=\count340
 \makeMPintoPDFobject=\count341
 \everyMPtoPDFconversion=\toks34
-) (doc.toc
+) (reporte.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -441,19 +441,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 4.
 )
 \tf@toc=\write5
-\openout5 = `doc.toc'.
+\openout5 = `reporte.toc'.
 
  [1
 
 {C:/Users/jose_/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/jose_/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 46.
+(Font)              <9> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 46.
- [2] [3] [4]
-runsystem(latexminted cleantemp  --timestamp 20260723163915 9A09B4DFDA82E3E665E31092D1C3EC8D)...executed.
+(Font)              <5> on input line 38.
+ [2] [3]
+runsystem(latexminted cleantemp  --timestamp 20260724194748 17BFB21FCD36328BF87BF1636DA09913)...executed.
 
- (doc.aux
+ (reporte.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 )
@@ -461,21 +461,21 @@ LaTeX Info: Redefining \% on input line 12.
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-05-26>
  ***********
-Package rerunfilecheck Info: File `doc.out' has not changed.
-(rerunfilecheck)             Checksum: A45A21330DF67FC2EB2768BD1A9F179F;1084.
+Package rerunfilecheck Info: File `reporte.out' has not changed.
+(rerunfilecheck)             Checksum: A1E276CA83F6739A3844095192E00823;611.
  ) 
 Here is how much of TeX's memory you used:
- 16301 strings out of 467509
- 316053 string characters out of 5408781
- 878314 words of memory out of 5000000
- 45336 multiletter control sequences out of 15000+600000
+ 16272 strings out of 467509
+ 315506 string characters out of 5408781
+ 875220 words of memory out of 5000000
+ 45313 multiletter control sequences out of 15000+600000
  676139 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,11n,93p,757b,560s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,6n,93p,693b,556s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/jose_/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/jose_/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/jose_/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchri8a.pfb>
-Output written on doc.pdf (4 pages, 65502 bytes).
+Output written on reporte.pdf (3 pages, 55103 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
